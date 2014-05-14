@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Archiv{% endblock %}
+
+{% block content %}
+  {% set year = 0 %}
+  <h1>Archiv</h1>
+
+  {% for article in articles %}
+    {% set previous_year = year %}
+    {% set year = article.date.strftime("%Y") %}
+
+    {% if not previous_year == year %}
+      <h2>{{ year }}</h2>
+    {% endif %}
+
+    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>,
+  {% endfor %}
+{% endblock %}

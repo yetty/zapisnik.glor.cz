@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="http://zapisnik.glor.cz/theme/css/vendor.css">
+  <script src="http://zapisnik.glor.cz/theme/js/vendor.js"></script>
+
+  <title>Tutoriál: hrajeme si s portréty v Gimpu - zapisnik.glor.cz</title>
+</head>
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2063092-11', 'glor.cz');
+  ga('send', 'pageview');
+</script>
+
+<div class="wrapper">
+  <div class="container">
+  <h1>Tutoriál: hrajeme si s portréty v Gimpu</h1>
+  <span class="date">2012/01/02</span>
+  <div class="article">
+    <p class="intro">Instruktážní článek pro úpravu fotografií v editoru <span class="caps">GIMP</span>. Na myšlenku postupu
+mne přivedl fotograf <a class="reference external" href="https://plus.google.com/102518365620075109973/posts">Mike Shaw</a>,
+který takto s oblibou portréty&nbsp;upravuje.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/jirka.jpg" />
+<p>Dlouho jsem nemohl vybrat žádnou fotografii, na které bych postup předvedl.
+Nakonec padla volba na jednu z letního putování po Šumavě s Vaškem a Jirkou.
+Doufám, že mi to Jirka odpustí. Každopádně mu vy odpusťte ten výraz. Je to focené
+po třech dnech s batohy na zádech, po ránu, kdy byla docela&nbsp;zima.</p>
+<div class="section" id="vybirame-fotografii">
+<h2>1. Vybíráme&nbsp;fotografii</h2>
+<p>Na podobnou úpravu se hodí téměř jakákoliv fotka, kde máte obličej ve slušné
+velikosti rozumně zaostřený. Moje vypadala původně&nbsp;takto:</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/01.jpg" />
+</div>
+<div class="section" id="orez">
+<h2>2.&nbsp;Ořez</h2>
+<p>Osvědčilo se mi hned zpočátku si fotku na hrubo oříznout. Jednak tím získám
+lepší představu o tom, jak by měla vypadat ve výsledku, ale hlavně čím menší
+fotografie, tím rychlejší jsou pak úpravy. Zvláště pokud už nemáte nejnovější&nbsp;stroj.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/02.jpg" />
+</div>
+<div class="section" id="prevod-do-c-b">
+<h2>3. Převod do&nbsp;Č&amp;B</h2>
+<p>Pokud chcete mít výsledek černobílý, není proč to&nbsp;oddalovat&#8230;</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/03.jpg" />
+</div>
+<div class="section" id="prekryvame-cernou">
+<h2>4. Překrýváme&nbsp;černou</h2>
+<p>V dalším kroku vytvoříme novou vrstvu, která nebude obsahovat nic jiného, než
+černou&nbsp;barvu.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/04.jpg" />
+</div>
+<div class="section" id="maska-k-cerne-vrstve">
+<h2>5. Maska k černé&nbsp;vrstvě</h2>
+<p>K nové vrstvě vytvoříme ještě masku, díky které budeme části vrstvy schovávat.
+Masku nastavíme na úplné&nbsp;krytí.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/05.jpg" />
+</div>
+<div class="section" id="odkryvame-oblicej">
+<h2>6. Odkrýváme&nbsp;obličej</h2>
+<p>Nyní začneme do masky černou barvou pomocí štětce kreslit tak, aby se nám
+odkrýval obličej a vůbec části, které chceme mít zobrazené. Nemusíte si příliš
+dělat hlavu s&nbsp;přesností.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/06.jpg" />
+</div>
+<div class="section" id="rozmazavame-masku">
+<h2>7. Rozmazáváme&nbsp;masku</h2>
+<p>Pomocí Gaussovského rozostření masku rozostříme. Poloměr závisí na rozlišení
+fotografie, je třeba si s tím chvíli hrát a&nbsp;laborovat.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/07.jpg" />
+</div>
+<div class="section" id="duplikujeme-zaklad">
+<h2>8. Duplikujeme&nbsp;základ</h2>
+<p>Následně základní vrstvu zduplikujeme a u nové vrstvy nastavíme režim na
+&quot;Násobení&quot;. Tím se nám fotografie jakoby&nbsp;ztmaví.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/08.jpg" />
+</div>
+<div class="section" id="maska-k-nasobne-vrstve">
+<h2>9. Maska k násobné&nbsp;vrstvě</h2>
+<p>K nové vrstvě opět vytvoříme ještě masku s úplným krytím. Znovu do masky
+malujeme černou barvou, tentokrát už ale pouze přes obličej. Opět si nemusíte
+nechávat záležet na přesnosti, raději si zachovejte odstup od&nbsp;kraje.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/09.jpg" />
+<p>Tuto masku opět rozostřete. Poloměr rozostření dávám tak poloviční k tomu,
+kterým jsem rozostřoval černou&nbsp;vrstvu.</p>
+<p>Pomocí této vrstvy vznikne silnější nasvícení obličeje a skrytí okrajových&nbsp;částí.</p>
+</div>
+<div class="section" id="hrajeme-si-s-kontrastem">
+<h2>10. Hrajeme si s&nbsp;kontrastem</h2>
+<p>Podle vlastního cítění si můžeme pohrát s kontrastem a jasem v podstatě u všech&nbsp;vrstev.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/10.jpg" />
+</div>
+<div class="section" id="finalni-orez">
+<h2>11. Finální&nbsp;ořez</h2>
+<p>Ještě doladíme ořez a umístění a už jsme skoro u&nbsp;cíle.</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/11.jpg" />
+</div>
+<div class="section" id="ramecek-a-finalni-upravy">
+<h2>12. Rámeček a finální&nbsp;úpravy</h2>
+<p>A tím jsme v podstatě hotovi. Ještě můžete provést finální úpravy - vyretušovat
+dámám vrásky, doladit celkový kontrast a jas, doostřit, přidat rámeček a je&nbsp;to&#8230;</p>
+<img alt="" src="http://zapisnik.glor.cz/theme/img/loader.gif" data-src="images/2012-01-02-tutorial-gimp-portrety/12.jpg" />
+</div>
+
+  </div>
+
+
+
+    <h2>Další podobné články: </h2>
+    <p>
+        <a href="http://zapisnik.glor.cz/pohledy-z-jizerek.html">Pohledy z hor Jizerských</a>,         <a href="http://zapisnik.glor.cz/leto-2010.html">Léto 2010</a>,         <a href="http://zapisnik.glor.cz/panorama-na-webu.html">Jak dostat velké panoráma na web?</a>,         <a href="http://zapisnik.glor.cz/the-dark-outdoors.html">The Dark Outdoors</a>,         <a href="http://zapisnik.glor.cz/potucky.html">Potůčky a potoky</a>,         <a href="http://zapisnik.glor.cz/liberec.html">Liberec</a>,         <a href="http://zapisnik.glor.cz/nikon-d7000.html">Nikon D7000</a>,         <a href="http://zapisnik.glor.cz/na-hdr-bez-bolesti.html">Na HDR bez bolestí</a>,         <a href="http://zapisnik.glor.cz/fotky-z-jizery.html">Z Jizery</a>,         <a href="http://zapisnik.glor.cz/ostry-svaroh-jezerni-hora.html">Ostrý, Svaroh a Jezerní hora</a>    </p>
+
+    <div class="footer">
+      Zapisuje <a href="https://www.judakaleta.cz/">Juda Kaleta</a>.<br>
+      <small>Veškerý obsah stránek je publikován pod licencí <a href="http://creativecommons.org/licenses/by-nc/3.0/deed.cs">Creative Commons BY-NC</a>.</small>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $("img").unveil(300);
+  });
+
+  $('body').flowtype({
+    minFont: 15,
+    maxFont: 24,
+    fontRatio: 30
+  });
+</script>
+</body>
+</html>

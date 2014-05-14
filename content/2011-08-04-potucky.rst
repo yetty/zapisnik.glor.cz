@@ -1,0 +1,23 @@
+Potůčky a potoky
+################
+
+:tags: fotky, Šumava
+
+`U Starého Holandu <http://www.mapy.cz/s/1Zy7>`_
+------------------------------------------------
+
+.. image:: images/2011-08-04-potucky/prvni.jpg
+
+`Vodopády sv. Wolfganga <http://www.mapy.cz/s/1Zyl>`_
+-----------------------------------------------------
+
+.. image:: images/2011-08-04-potucky/druhy.jpg
+
+`Hamerský potok <http://www.mapy.cz/s/1Zyt>`_
+---------------------------------------------
+
+.. image:: images/2011-08-04-potucky/treti.jpg
+
+.. image:: images/2011-08-04-potucky/ctvrty.jpg
+
+.. image:: images/2011-08-04-potucky/paty.jpg

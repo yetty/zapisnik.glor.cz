@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Nálepky{% endblock %}
+
+{% block content %}
+  <h1>Nálepky</h1>
+
+  <p>
+  {%- for tag, articles in tags|sort %}
+    <span class="sc"><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</span>
+  {% endfor %}
+  </p>
+{% endblock %}

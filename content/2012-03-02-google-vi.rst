@@ -1,0 +1,29 @@
+Google ví...
+############
+
+.. class:: intro
+
+Všichni víme, že Google ví všechno, že? Nebo si alespoň myslí, že ví
+[ref]Měli jste na mysli... Ne neměli a neříkej mi, co jsem si myslel![/ref].
+
+Tak proč se ho nezeptat, co vlastně chceme.
+
+.. image:: images/2012-03-02-google-vi/chci.jpg
+
+.. image:: images/2012-03-02-google-vi/nechci.jpg
+
+Občas úsměvné, převážně smutné. A nejhorší na tom všem je, že on si to z prstu
+nevycucal.
+
+A co chceme mít?
+
+.. image:: images/2012-03-02-google-vi/chci_mit.jpg
+
+.. image:: images/2012-03-02-google-vi/nechci_mit.jpg
+
+Nechcete mít děti? To je jednoduché, omezte styk s muži (případně s ženami),
+jak se radí v `Zítra nehrajeme! <http://www.csfd.cz/film/215339-zitra-nehrajeme/>`_.
+
+A to, že nic nevíme, snad už nikoho nepřekapí.
+
+.. image:: images/2012-03-02-google-vi/vim.jpg

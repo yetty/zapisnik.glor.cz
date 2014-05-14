@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}{{ tag }}{% endblock %}
+
+{% block content %}
+  <h1>{{ tag }} {% if articles_page.number > 1 %}<small>({{ articles_page.number }}.)</small>{% endif %}</h1>
+
+  {% include "_articles.html" %}
+{% endblock %}

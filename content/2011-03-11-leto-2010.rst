@@ -1,0 +1,24 @@
+Léto 2010
+#########
+
+:tags: fotky
+
+.. class:: intro
+
+Pár fotek vyfocených vloni v létě. Fotil jsem na klasickou filmovou zrcadlovku
+Praktica B100. Fotky jsou ze Švýcarska, Francie a vodáku se třídou. Zpřeházeně.
+
+.. image:: images/2011-03-11-leto-2010/foto02.jpg
+
+.. image:: images/2011-03-11-leto-2010/foto01.jpg
+
+.. image:: images/2011-03-11-leto-2010/foto04.jpg
+
+.. image:: images/2011-03-11-leto-2010/foto03.jpg
+
+.. image:: images/2011-03-11-leto-2010/foto07.jpg
+
+.. image:: images/2011-03-11-leto-2010/foto08.jpg
+
+.. image:: images/2011-03-11-leto-2010/foto06.jpg
+

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Zápisník{% if articles_page.number > 1 %} - {{ articles_page.number }}. str.{% endif %}{% endblock %}
+
+{% block content %}
+  <h1>Zápisník {% if articles_page.number > 1 %}<small>({{ articles_page.number }}.)</small>{% endif %}</h1>
+
+  <p class="intro">O cestování s batohem na zádech. Povídky i příběhy ze života.
+                   Fotografie ze zapadlých koutů světa i Česka.</p>
+
+  {% include "_articles.html" %}
+
+{% endblock content %}

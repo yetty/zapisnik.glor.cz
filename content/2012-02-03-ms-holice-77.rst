@@ -1,0 +1,23 @@
+MS Holice 1977
+##############
+
+:tags: fotky
+
+.. class:: intro
+
+`Karel Pučelík <http://goo.gl/kQmT7>`_, slovutný to odborník na rally a podobně, mi
+podstrčil pár fotek, prý ať je někam šoupnu. Moc o nich nevím, podle názvu
+složky se jedná patrně o mistrovství světa v Holicích. Pokud zjistím více
+podrobností (třeba čím bylo foceno), určitě to dodám...
+
+.. image:: images/2012-02-03-ms-holice-77/1.jpg
+
+.. image:: images/2012-02-03-ms-holice-77/2.jpg
+
+.. image:: images/2012-02-03-ms-holice-77/3.jpg
+
+.. image:: images/2012-02-03-ms-holice-77/4.jpg
+
+.. image:: images/2012-02-03-ms-holice-77/5.jpg
+
+.. image:: images/2012-02-03-ms-holice-77/6.jpg

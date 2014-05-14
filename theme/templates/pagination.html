@@ -1,0 +1,19 @@
+<p class="paginator">
+  <span class="previous">
+    {% if articles_page.has_previous() %}
+      <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">novější</a>
+    {% else %}
+      <small>novější</small>
+    {% endif %}
+  </span>
+  <span class="page_number">
+    {{ articles_page.number }} / {{ articles_paginator.num_pages }}
+  </span>
+  <span class="next">
+    {% if articles_page.has_next() %}
+      <a href="{{ SITEURL }}/{{ articles_next_page.url }}">starší</a>
+    {% else %}
+      <small>starší</small>
+    {% endif %}
+  </span>
+</p>
