@@ -4,7 +4,7 @@
 
 {% block content %}
   <h1>{{ article.title }}</h1>
-  <span class="date">{{ article.date.strftime("%Y/%m/%d") }}</span>
+  <span class="date">{{ article.date.strftime("%Y/%m/%d") }}</span>, <a href="{{ SITEURL }}">&#10154;</a>
   <div class="article">
     {{ article.content }}
   </div>

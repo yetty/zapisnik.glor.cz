@@ -45,8 +45,8 @@ TAG_URL = 'nalepka/{slug}.html'
 
 TYPOGRIFY = True
 
-PLUGIN_PATH = '/home/juda/projects/pelican-plugins/'
-PLUGINS = ['sitemap', 'render_math', 'simple_footnotes', 'related_posts', 'plugins.unveil'] #, 'share_post']
+PLUGIN_PATH = '~/projects/pelican-plugins/'
+PLUGINS = ['sitemap', 'render_math', 'simple_footnotes', 'related_posts', 'plugins.unveil', 'share_post']
 
 RELATED_POSTS_MAX = 10
 

@@ -237,7 +237,7 @@ hlavami.
 
 Na Ramže bylo plno. Na holky zbyly poslední dvě volná místa a my s Kubou spolu s
 půltuctem dalších horalů spali venku. Noc byla poklidná a ráno jsme nikam
-nechvátali - slíbili jsme si zasloužený odpočinek. Holky se z útulni vybelhali,
+nechvátali - slíbili jsme si zasloužený odpočinek. Holky se z útulni vybelhaly,
 teprve když poslední skupina odešla.
 
 .. figure:: images/2013-10-02-poznamky-ze-zeme-sluncem-spalene/12-ramza.jpg
@@ -245,7 +245,7 @@ teprve když poslední skupina odešla.
     Snídaně na Ramže
 
 V klidu jsme posnídali a před polednem se vydali za dalším dobrodružstvím. Bylo
-vedro. Vzduch se ani nehnul a mi se prodírali přes prales popadaných stromů a
+vedro. Vzduch se ani nehnul a my se prodírali přes prales popadaných stromů a
 větví, abychom vylezli na Homolku.
 
 .. figure:: images/2013-10-02-poznamky-ze-zeme-sluncem-spalene/13-horko.jpg

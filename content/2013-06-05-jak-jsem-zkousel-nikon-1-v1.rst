@@ -1,4 +1,4 @@
-Jak jsem zkoušel Nikona 1
+Jak jsem zkoušel Nikona 1
 #########################
 
 :tags: fotky, vybavení
