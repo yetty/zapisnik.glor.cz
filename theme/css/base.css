@@ -1,0 +1,207 @@
+/* GLOBAL STYLES */
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 730px;
+  width: 100%;
+  float:left;
+}
+
+.container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.footer {
+  margin-top: 3em;
+  font-size: 70%;
+  font-style: italic;
+}
+
+/* GLOBAL TYPOGRAPHY STYLES */
+
+h1 {
+  font-weight: bold;
+
+  font-size: 2.8em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  padding: 1em 0 0.32em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  margin-top: 1.3em;
+  text-transform: uppercase;
+}
+
+a {
+  color: #2D5571;
+}
+
+hr {
+  width: 90%;
+  margin: 0;
+  height: 1px;
+  background: #555555;
+  border: 0;
+}
+
+li {
+  list-style-position: inside;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+img {
+  max-width: 100%;
+}
+
+p, ul, li, .code, img, iframe {
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+p.intro {
+  color: #555555;
+  letter-spacing: 0.1em;
+  line-height: 1.7;
+}
+
+em, .em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+tt.docutils, .code {
+  font-family: monospace;
+  background: #cfcfcf;
+  font-size: 0.7em;
+  padding: 0.2em 0.3em;
+}
+
+.code {
+  overflow: auto;
+}
+
+.caption {
+  margin-top: -0.5em;
+  font-style: italic;
+}
+
+.caption:before {
+  content: "― ";
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+blockquote {
+  border-left: 2px solid black;
+  padding: 0.3em;
+  padding-left: 1em;
+  background: #eee;
+
+  font-style: italic;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.sc {
+  font-variant: small-caps;
+}
+
+.question {
+  font-variant: small-caps;
+  font-weight: bold;
+  margin-top: 1.3em;
+  margin-bottom: -0.3em;
+}
+
+small {
+  font-size: 80%;
+}
+
+/* ARTICLE CONTENT STYLES */
+
+.article ul, .article ol {
+  margin-left: 1.5em;
+}
+
+.article li {
+  margin-bottom: 0;
+}
+
+.simple-footnotes {
+  margin-top: 2em;
+}
+
+.social img {
+  width: 3em;
+  max-width: 72px;
+}
+
+/* INDEX ARTICLE LIST STYLES */
+
+.index li {
+  list-style-type: none;
+  text-transform: uppercase;
+
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+
+.index .date {
+  min-width: 120px;
+  width: 27%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.index .link {
+  display: inline-block;
+  width: 67%;
+}
+
+.index .length {
+  font-size: 0.45em;
+  text-decoration: none !important;
+}
+
+.ads {
+  position: fixed;
+  left: 830px;
+  top: 50px;
+}

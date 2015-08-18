@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <link rel="alternate" type="application/atom+xml" title="RSS kanál" href="http://zapisnik.glor.cz/feeds/all.atom.xml"/>
+
+  <link rel="stylesheet" href="http://zapisnik.glor.cz/theme/css/reset.css">
+  <link rel="stylesheet" href="http://zapisnik.glor.cz/theme/css/base.css">
+  <script src="http://zapisnik.glor.cz/theme/js/vendor.js"></script>
+
+  <title>Poznámky k mobilní verzi&nbsp;webu - zapisnik.glor.cz</title>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"Tato webová stránka používá cookies. Neublíží vám to. Ale protože si byrokrati EU usmysleli, musím vám to říct.","dismiss":"Ok, tak jo.","learnMore":"Chceš podrobnější informace?","link":null,"theme":"dark-top"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+</head>
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2063092-11', 'glor.cz');
+  ga('send', 'pageview');
+</script>
+
+<div class="wrapper">
+  <div class="container">
+  <h1>Poznámky k mobilní verzi&nbsp;webu</h1>
+  <span class="date">2012/05/04</span>, <a href="http://zapisnik.glor.cz">&#10154;</a>
+  <div class="article">
+    <p class="intro">Přistupování na web přes nějaký chytrý telefon, či podobné zařízení, jehož
+rozměry nedosahují rozměrů stolních monitorů, je čím dál tím běžnější. A zdá
+se, že tento trend bude&nbsp;pokračovat.</p>
+<p>Na západ od nás je situace ještě výraznější. Objevily se
+<a class="reference external" href="http://www.zeldman.com/">první vlaštovky</a>, které
+dokonce nenavrhují vzhled stránek pro počítač, ale rovnou pro&nbsp;mobil.</p>
+<p>Proto není úplně vhodné mobilní verzi zanedbat. Pár tipů, které mohou usnadnit
+její&nbsp;odladění.</p>
+<div class="section" id="detekce-mobilniho-zarizeni">
+<h2>Detekce mobilního&nbsp;zařízení</h2>
+<p>Obecně lze mobilní zařízení rozpoznat dvěma způsoby. Pomocí skriptu na straně
+serveru a speciálním kódem ve&nbsp;stylech.</p>
+<div class="section" id="rozpoznani-na-strane-skriptu">
+<h3>Rozpoznání na straně&nbsp;skriptu</h3>
+<p>Hotové řešení pro většinu běžných jazyků je k dispozici na webu
+<a class="reference external" href="http://detectmobilebrowsers.com/">detectmobilebrowsers.com</a>. Tuto podmínku
+stačí zakomponovat do vašich stránek a pokud se mobilní zařízení jedná, načíst
+např. speciální&nbsp;styl.</p>
+<p>Toto řešení používám já. Jediné mi fungovalo&nbsp;spolehlivě.</p>
+</div>
+<div class="section" id="rozpoznani-v-css">
+<h3>Rozpoznání v <span class="caps">CSS</span></h3>
+<p>Tento způsob funguje na základě načítání různých stylů podle šířky prohlížeče.
+Má mnoho výhod - odpadají problémy s cachováním, lze velmi snadno vytvořit
+styly pro různá zařízení (jinak široká). Na jediný problém jsem narazil - na
+testovacím mobilu mi tento princip&nbsp;nefungoval.</p>
+<p>Možné je buď načítat přímo speciální&nbsp;styl:</p>
+<pre class="code literal-block">
+&lt;link rel=&quot;stylesheet&quot; media=&quot;screen and (max-device-width: 480px)&quot; href=&quot;../mobile.css&quot; type=&quot;text/css&quot; /&gt;
+</pre>
+<p>Nebo až <span class="caps">CSS</span>&nbsp;souboru:</p>
+<pre class="code literal-block">
+&#64;media screen and (max-device-width: 480px) {
+    ...
+}
+</pre>
+<p>Šířku je samozřejmě třeba nastavit podle&nbsp;zařízení.</p>
+</div>
+<div class="section" id="rozpoznani-serverem">
+<h3>Rozpoznání&nbsp;serverem</h3>
+<p>Existuje ještě třetí způsob - rozeznat zařízení pomocí serveru. V podstatě se
+jedná o podobný princip, jako v případě rozeznání skriptem. Jen se podmínka
+přesouvá do .htaccessu (v případě Apache). Detailní popis je <a class="reference external" href="http://stackoverflow.com/a/1005171">k dispozici na
+stackoverflow.com</a>.</p>
+</div>
+</div>
+<div class="section" id="nastaveni-skalovani-spravna-sirka">
+<h2>Nastavení škálování, správná&nbsp;šířka</h2>
+<p>Problém, na který jsem narazil, bylo vykreslování pouze v úzkém pruhu. V
+některých prohlížečích (Opera) s tím nešlo nic dělat, v některých se pruh sám
+po načtení roztáhl na celou&nbsp;šířku.</p>
+<p>Ke sjednocení a správnému vykreslování je potřeba do hlavičky <span class="caps">HTML</span> přidat meta
+tag <em>viewport</em>. Tím je možné nastavit počáteční šířku, minimální i maximální
+šířku a možnosti&nbsp;přibližování.</p>
+<pre class="code literal-block">
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+</pre>
+<p>Podrobnosti a detailní návod k použití je rozepsán <a class="reference external" href="https://developer.mozilla.org/en/Mobile/Viewport_meta_tag">na webu
+Mozilly</a>.</p>
+</div>
+<div class="section" id="cachovani-a-rozliseni-verzi">
+<h2>Cachování a rozlišení&nbsp;verzí</h2>
+<p>Pokud nepoužijete rozlišování css styly, je potřeba jednotlivé verze rozlišit
+adresou. Pokud by byla adresa stejná, docházelo by k cachování, které by
+způsobilo, že i normálním uživatelům se zobrazuje verze pro mobily a&nbsp;obráceně.</p>
+<p>Nejsnazší je přidat parametr <span class="caps">GET</span>:</p>
+<pre class="code literal-block">
+http://mojeadresa.cz/stranka.html?mobile
+</pre>
+<p>a existenci parametru pak ověřovat (např. pomocí <span class="caps">PHP</span>):</p>
+<pre class="code literal-block">
+if (isset($_GET['mobile'])) {
+    ...
+}
+</pre>
+<p>Druhou možností je pak mít pro mobilní verzi vlastní subdoménu a rozlišovat
+pomocí <tt class="docutils literal"><span class="pre">$_SERVER['HTTP_HOST']</span></tt>:</p>
+<pre class="code literal-block">
+if (preg_match('#^m\.#', $_SERVER['HTTP_HOST'])) {
+    ...
+}
+</pre>
+</div>
+<div class="section" id="testovani">
+<h2>Testovaní</h2>
+<p>Jak ověřit, že všechno funguje, jak má? Nejsnazší je vzít do ruky mobil a
+adresu vyťukat. Další možností je rozběhnout nějaký emulátor na počítači,
+třeba pro <a class="reference external" href="http://developer.android.com/index.html">Android</a>.</p>
+<p>Funguje také doplněk <a class="reference external" href="https://addons.mozilla.org/cs/firefox/addon/user-agent-switcher/">User Agent
+Switcher</a> pro
+Firefox, který se dokáže identifikovat jako libovolný prohlížeč. Vzhled díky
+tomu moc neotestujete, tak alespoň to&nbsp;rozpoznávání.</p>
+<p>Všelijaké online emulátory fungují velice&nbsp;pochybně.</p>
+</div>
+<div class="section" id="na-co-myslet-pri-navrhovani-vzhledu">
+<h2>Na co myslet při navrhování&nbsp;vzhledu?</h2>
+<p>A ještě pár praktických rad na závěr: udělejte to tak příjemně ovladatelné, jak
+jen to je možné. To znamená, že navigaci musí být tak velká, aby se do ní dalo
+trefit. Bez&nbsp;problémů.</p>
+<p>Stejně tak i velikost písma musí být taková, aby i člověk na čtení nemusel brát
+lupu. Musí se počítat s tím, že na malý displej se toho tolik nevleze. Není od
+věci celý design zjednodušit a přebytečné prvky odstranit,&nbsp;schovat.</p>
+</div>
+
+  </div>
+
+  
+  <div id="disqus_thread"></div>
+   <script type="text/javascript">
+       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+       var disqus_shortname = 'zapisnik-glor-cz'; // required: replace example with your forum shortname
+
+       /* * * DON'T EDIT BELOW THIS LINE * * */
+       (function() {
+           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+           dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+       })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+
+    <h2>Další podobné články: </h2>
+    <p>
+        <a href="http://zapisnik.glor.cz/na-hdr-bez-bolesti.html">Na <span class="caps">HDR</span> bez&nbsp;bolestí</a>,         <a href="http://zapisnik.glor.cz/focuswriter-old-school-typewriter.html">Focuswriter: Old School Typewriter&nbsp;Theme</a>,         <a href="http://zapisnik.glor.cz/sazba-akordu-v-texu.html">Jak vysázet akordy v&nbsp;TeXu</a>,         <a href="http://zapisnik.glor.cz/navod-na-ggt.html">Návod na <span class="caps">GGT</span></a>    </p>
+
+    <div class="footer">
+      Zapisuje <a href="https://www.judakaleta.cz/">Juda Kaleta</a> (<a href="mailto:juda.kaleta@gmail.com">@</a>).<br>
+      <small>Veškerý obsah stránek je publikován pod licencí <a href="http://creativecommons.org/licenses/by-nc/3.0/deed.cs">Creative Commons BY-NC</a>.</small>
+    </div>
+  </div>
+</div>
+
+<div class="ads">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Zapisnik.Glor.cz -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-5682429944123331"
+     data-ad-slot="4881798207"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $("img").unveil(300);
+  });
+
+  $('body').flowtype({
+    minFont: 15,
+    maxFont: 24,
+    fontRatio: 30
+  });
+</script>
+</body>
+</html>
