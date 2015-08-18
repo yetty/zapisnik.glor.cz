@@ -10,6 +10,7 @@ přírody do školy, což je šok opravdu veliký, rozhodl jsem se neodkládat d
 napsání tohoto článku. A tak sem píšu mé vzpomínky na letošní lyžák.
 
 .. image:: images/2008-02-22-golden-well-2008/01-chata.jpg
+   :alt: Naše útočiště.
 
 Ten týden hrozně rychle utekl a nějak jsem si vůbec nestihl zapamatovat některé
 trasy a mám to v hlavě trochu pomotané, takže kdyby tento článek četl někdo
@@ -27,6 +28,7 @@ v erárním spacáku se mi nechtělo, kdo ví, kdo v něm spal přede mnou a tak
 jsem si spacák půjčil.
 
 .. image:: images/2008-02-22-golden-well-2008/02-pres-potok.jpg
+   :alt: Přelézáme přes potok.
 
 V pátek večer jsem si zabalil a přichystal se na zítřejší odjezd. Jel jsem
 jako obyčejně s Johanou. Den začal poměrně jako obyčejně. Vstal jsem v šest
@@ -49,6 +51,7 @@ jet tak brzy, ale mně se to jaksi nestihlo říct a tak jsem tam venku čekal
 zvyknu, budu to potřebovat).
 
 .. image:: images/2008-02-22-golden-well-2008/03-potok-svata.jpg
+   :alt: Sváťa a šumavský potok.
 
 Pak konečně přijeli, já si dal lyže a batoh do auta, přičemž Johana
 poznamenala, že ho mám každý rok menší a jelo se.
@@ -73,6 +76,7 @@ na konec, ale auto nikde. Jsme trochu bezradní a tak dáme na chytrou radu:
 "Za zeptání nic nedáš a huba ti neupadne".
 
 .. image:: images/2008-02-22-golden-well-2008/04-vecer.jpg
+   :alt: Michal s Jendou muzicírují.
 
 Vedle auta právě prochází starší pán, Zdeněk říká, že
 ten to tu určitě bude znát, stahuje okénko a ptá se na
@@ -98,6 +102,7 @@ tu už všichni i Jenda s Michalem a my můžeme vyrazit na cestu ke Zlaté
 studně, je to blízko, asi tři kilometry.
 
 .. image:: images/2008-02-22-golden-well-2008/05-roklan.jpg
+   :alt: Velký Roklan.
 
 A tak jsme se dostali až na chatu. Musím poznamenat, že mě hodně nepříjemně
 překvapila. Honza sice říkal, že je to na nás až moc luxusní, ale takhle
@@ -121,6 +126,7 @@ večeři. Zde je první temná díra v mé paměti, co bylo k večeři si nemů�
 vybavit.
 
 .. image:: images/2008-02-22-golden-well-2008/07-prameny-vltavy.jpg
+   :alt: Lovíme mince v pramenu Vltavy.
 
 Další temná díra v mé paměti je celý další den. První den mám ještě docela
 jasný, ale co bylo druhý? To si nějak nevzpomínám. Počkejte, možná se
@@ -151,6 +157,7 @@ být odměnou za uraženou vzdálenost. Ten den jsme na běžkách uběhli
 našich rekordních 41 kilometrů.
 
 .. image:: images/2008-02-22-golden-well-2008/06-zima.jpg
+   :alt: Šumavská magistrála.
 
 V úterý jsme měli kratší výlet, protože jsme byli po včerejšku hodně
 unavení. Vyjeli jsme krásnou vycházkovou rychlostí na Přilbu a odtud
@@ -178,6 +185,7 @@ předtím než jsme se odtamtud odebrali nastalo kámennůžkopapírování o
 jsme se po tmě vydali zpátky na chatu.
 
 .. image:: images/2008-02-22-golden-well-2008/08-polednik.jpg
+   :alt: Poledník.
 
 Ve čtvrtek mi začal opět den o hodinu dřív. Tenhle den si pamatuji docela
 přesně a tak vás budu chvíli nudit dlouhými detaily. K snídani jsme měli
@@ -209,6 +217,7 @@ Samozřejmě, lepší jsou vroubky (co myslíte že mám :), ale zkuste o tom p�
 se zarytými představami.
 
 .. image:: images/2008-02-22-golden-well-2008/09-lenka.jpg
+   :alt: Lenky hvězda.
 
 Ani nám nechtěli uvěřit, že i Bauer má vroubky, jen to tají
 aby nebyl za amatéra. Nevěřili a tak se dál dřeli s pracným mazání, kterému
@@ -240,3 +249,4 @@ myslí že má všechno, nechť ví že nemá skoro nic, protože i bez toho co 
 to může být lepší.
 
 .. image:: images/2008-02-22-golden-well-2008/10-konec.jpg
+   :alt: Západ slunce u Zlaté studny.

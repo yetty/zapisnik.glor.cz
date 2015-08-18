@@ -1,0 +1,69 @@
+LaTeX a dějepis, tip #2 — bibliografie
+========================================
+
+:tags: latex
+:category: Latex - tipy a triky
+
+.. class:: intro
+
+Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit elegantně.
+
+Tip #2 - bibliografie
+---------------------
+
+Základem odborného textu, někdy důležitější než text samotný, je kvalitní poznámkový aparát. I když totiž napíšete naprosté zhovadilosti, opřené o uznávaná jména působí (minimálně na první pohled) lépe. 
+
+Možnosti vytváření bibliografie v LaTeXu jsou opravdu mocné (že je až někdy problém je přemoci). Nám bude stačit vědět, že pro humanitní styl citací nejlépe poslouží nástroj jménem `biblatex`. Samotné bibliografické údaje se ukládají do souboru s koncovkou `.bib` a vypadají zhruba takto:
+
+.. code::
+
+  @book{scrivener:greek-new-testament,
+  	Author = {SCRIVENER, Frederick Henry Ambrose},
+  	Pages = {644},
+  	Publisher = {Cambridge : Deighton, Bell},
+  	Title = {Greek New Testament},
+  	Url = {https://archive.org/details/greeknewtestamen00scriuoft},
+  	Urldate = {2015-05-03},
+  	Year = {1887}}
+
+  @book{carson:uvod-do-noveho,
+  	Author = {CARSON, D. A. and DOUGLAS, J. Moo},
+  	Publisher = {Návrat domů},
+  	Title = {Úvod do Nového zákona},
+  	Year = {2008}}
+
+  @book{franzen:male-cirkevni,
+  	Author = {FRANZEN, August},
+  	Pages = {358},
+  	Publisher = {Zvon},
+  	Title = {Malé církevní dějiny},
+  	Year = {1995}}
+
+Protože psát něco takového ručně by byl opruz, dají se k tomu použít pomocné nástroje. Pro Mac je to `bibdesk <http://bibdesk.sourceforge.net/>`_, pro všechny ostatní `JabRef <http://jabref.sourceforge.net/screenshots.php>`_.
+
+Samotné vložení do `.tex` souboru se provádí následujícími příkazy vloženými před začátek dokumentu:
+
+.. code::
+
+  \usepackage[
+    bibstyle=verbose-trad2,
+    citestyle=authortitle-ibid, 
+    sortlocale=cs_CZ,
+    backend=biber
+  ]{biblatex}
+
+  \bibliography{biblio}
+  
+Pokud chcete citovat v textu, provedete to pomocí příkazů `\cite` nebo `\footcite`, podle toho, kam citaci chcete vložit.
+
+.. code::
+
+  % Přímo v textu.
+  Tohle se píše v \cite[s. 128]{carson:uvod-do-noveho}.
+  
+  % Do poznámky pod čarou.
+  A tohle je pravda.\footcite{franzen:male-cirkevni}
+  
+Pokud na konci práce chcete mít kompletní použitou literaturu a prameny, slouží k tomu příkaz `\printbibliography`.
+
+Podrobnější informace naleznete nejlépe zase ve `wiki <https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management>`_. Jak může výsledný dokumentt vypadat si můzete prohlédnout `zde <https://www.overleaf.com/read/gcmncsbrwvmd>`_.

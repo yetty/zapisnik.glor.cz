@@ -7,8 +7,9 @@ body {
 }
 
 .wrapper {
-  max-width: 700px;
+  max-width: 730px;
   width: 100%;
+  float:left;
 }
 
 .container {
@@ -22,11 +23,10 @@ body {
   font-style: italic;
 }
 
-
 /* GLOBAL TYPOGRAPHY STYLES */
 
 h1 {
- 	font-weight: bold;
+  font-weight: bold;
 
   font-size: 2.8em;
   line-height: 1.1em;
@@ -101,7 +101,7 @@ strong {
 tt.docutils, .code {
   font-family: monospace;
   background: #cfcfcf;
-  font-size: 0.9em;
+  font-size: 0.7em;
   padding: 0.2em 0.3em;
 }
 
@@ -173,7 +173,6 @@ small {
   max-width: 72px;
 }
 
-
 /* INDEX ARTICLE LIST STYLES */
 
 .index li {
@@ -186,13 +185,23 @@ small {
 
 .index .date {
   min-width: 120px;
-  width: 28%;
+  width: 27%;
   display: inline-block;
   vertical-align: top;
 }
 
-.index a {
+.index .link {
   display: inline-block;
-  width: 70%;
+  width: 67%;
 }
 
+.index .length {
+  font-size: 0.45em;
+  text-decoration: none !important;
+}
+
+.ads {
+  position: fixed;
+  left: 830px;
+  top: 50px;
+}

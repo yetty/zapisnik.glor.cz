@@ -1,0 +1,29 @@
+LaTeX a dějepis, tip #1 — sázejte online
+========================================
+
+:tags: latex
+:category: Latex - tipy a triky
+
+.. class:: intro
+
+Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit elegantně.
+
+Tip #1 - sázejte online
+-----------------------
+
+Rozběhat LaTeX na vlastním počítači není úplně jednoduchá záležitost, takže už to mnoho lidí odradí. Naštěstí, v době internetu, není problém najít služby, které vám dostatečný komfort nabídnou online. A pokud nepotřebujete kdovíco, tak často i úplně zdarma.
+
+Po rychlém gůglení mi vypadly tyto dva weby:
+
+- https://cs.sharelatex.com/
+- https://www.overleaf.com/
+
+Kdo má chuť zkoušet toho víc, na `StackExchange <http://tex.stackexchange.com/a/1654/59996>`_ je ucelenější přehled.
+
+A jak může váš první dokument v LaTeXu vydat? Třeba `takto <https://www.overleaf.com/read/dgfdxthzbjfp>`_. 
+
+Ještě pár poznámek, kterými si ušetříte pár začátečnických problémů:
+
+- **nastavte si LaTeX Engine na XeLaTex.** Bez složitého vysvětlování se vám pak budou správně zobrazovat české znaky. Většinou se dá tato volba najít někde v nastavení.
+- **stáhněte si tahák** (třeba `tento <http://www.stdout.org/~winston/latex/latexsheet-a4.pdf>`_). Málokdo si hned zapamatuje všechny příkazy, jak psát nadpisy, kurzívou apod. Naštěstí vám to usnadní i tlačítka ve většině editorů.
+- pokud nebudete vědet co a jak, může vám pomoci velmi dobře zpracovaná `wiki stránka pro LaTeX <https://en.wikibooks.org/wiki/LaTeX>`_.

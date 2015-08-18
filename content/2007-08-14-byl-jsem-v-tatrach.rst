@@ -19,6 +19,7 @@ Z Nýrska jsem s Johanou a jejím otcem vyrážel autem okolo čtvrté hodiny. J
 lehce nestíhala, musela ještě nakoupit energetické zásoby.
 
 .. image:: images/2007-08-14-byl-jsem-v-tatrach/zahaleno.jpg
+   :alt: Pohled z hor do údolí zahaleného mraky.
 
 Až jsme konečně vyrazili, směr Horažďovice, odkud jsme měli všichni společně
 odjet autobusem do Prahy. Výjimečně jsme dorazili na autobusák jako první.
@@ -106,6 +107,7 @@ začali zase potit. Horákovi (od hor, ne od přitroublého seriálu) je prý v�
 buď zima, nebo ukrutné horko. My si to mohli vyzkoušet na vlastní kůži.
 
 .. image:: images/2007-08-14-byl-jsem-v-tatrach/krajina.jpg
+   :alt: Pohled na horskou krajinu Nízkých Tater.
 
 Už jsme šli po hřebenu, po kterém jsme měli jít až do konce. Bez problémů jsme
 se dostali na Strednou hoľu. S chutí vyrazili dál, šlo se chvíli opravdu
@@ -210,6 +212,7 @@ znít asi: "Neriskuj zbytečně".
 
 
 .. image:: images/2007-08-14-byl-jsem-v-tatrach/krajinaII.jpg
+   :alt: Dálnice směrem na Chopok.
 
 A tak jsme si udělali polívku z masoxu a spoustu nudliček do toho. Nevím, proč
 se to stalo památným, ale nejspíše proto, že v tom byl dostatek soli. Pravda, ze
@@ -347,6 +350,7 @@ Protože jsme byli tak nabytí energií, začali jsme vtipkovat. Pro potrápení
 Tchoříků jsem vytáhl tento hlavolam:
 
 .. image:: images/2007-08-14-byl-jsem-v-tatrach/100je510.png
+   :alt: Hádanka.
 
 Co musím uznat, je vytrvalost, se kterou to někteří řešili do dalšího
 dne.
@@ -402,6 +406,7 @@ nasypali do hrnečku a jedli lžícemi. Fakt dobrý...
 
 
 .. image:: images/2007-08-14-byl-jsem-v-tatrach/krajinaIII.jpg
+   :alt: Prudké horské svahy.
 
 Postupně pršelo čím dál tím méně a my zase vyrazili v mlze. Teď už jsme
 měli vlastně to nejtěžší za sebou, už jsme skoro jenom klesali.

@@ -1,0 +1,19 @@
+LaTeX a dějepis, tip #5 — nedělitelné mezery
+============================================
+
+:tags: latex
+:category: Latex - tipy a triky
+
+.. class:: intro
+
+Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit elegantně.
+
+Základním znakem kvalitních prací je, že si autor dá pozor nejen na pravopisná a gramatická pravidla, ale i na úroveň typografickou. V tom se LaTeX naštěstí o většinu věcí postará za vás sám. Co ale při výchozím nastavení neřeší, jsou nedělitelné mezery po jednopísmenných předložkách.
+
+Nedělitelnou mezeru v LaTeXu vložíte znakem ``~``, ale doplňovat je ručně, to by byl opruz. Naštěstí je pro to udělátko od `Petra Olšáka <http://math.feld.cvut.cz/olsak/>`_ s názvem ``vlna``. Pro použití stačí načíst balíček na začátku souboru:
+
+.. code::
+
+    \usepackage{xevlna}
+
+A tím je vše hotovo. Rozdíl můžete porovnat na těchto dvou dokumentech - `první je bez použití vlny <https://www.overleaf.com/read/dfzzprqwrgkv>`_ a ten `druhý naopak s vlnou je <https://www.overleaf.com/read/fzstmmjzxmwp>`_.

@@ -1,7 +1,7 @@
 Srdečná
 =======
 
-:tags: básně, doporučuji
+:tags: básně
 
 |
 | Byl šedý kostel, šedé hroby,

@@ -2,7 +2,19 @@
   {% for article in articles_page.object_list %}
     <li>
       <span class="date">{{ article.date.strftime("%Y/%m/%d") }}</span>
-      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+
+      <span class="link">
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+
+        {% set length_min = (article.content|length / 1400) %}
+        <span class="length">
+          {% if length_min < 1 %}
+            /kraťoučký/
+          {% else %}
+            /{{ length_min|round|int }}min/
+          {% endif %}
+        </span>
+      </span>
     </li>
   {% endfor %}
 </ul>

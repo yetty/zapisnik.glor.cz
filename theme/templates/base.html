@@ -8,10 +8,20 @@
 
   <link rel="alternate" type="application/atom+xml" title="RSS kanál" href="{{SITEURL}}/feeds/all.atom.xml"/>
 
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/vendor.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/reset.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/base.css">
   <script src="{{ SITEURL }}/theme/js/vendor.js"></script>
 
   <title>{% block title %}{% endblock %} - zapisnik.glor.cz</title>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"Tato webová stránka používá cookies. Neublíží vám to. Ale protože si byrokrati EU usmysleli, musím vám to říct.","dismiss":"Ok, tak jo.","learnMore":"Chceš podrobnější informace?","link":null,"theme":"dark-top"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
 </head>
 <body>
 
@@ -30,10 +40,22 @@
     {% block content %}{% endblock %}
 
     <div class="footer">
-      Zapisuje <a href="https://www.judakaleta.cz/">Juda Kaleta</a>.<br>
+      Zapisuje <a href="https://www.judakaleta.cz/">Juda Kaleta</a> (<a href="mailto:juda.kaleta@gmail.com">@</a>).<br>
       <small>Veškerý obsah stránek je publikován pod licencí <a href="http://creativecommons.org/licenses/by-nc/3.0/deed.cs">Creative Commons BY-NC</a>.</small>
     </div>
   </div>
+</div>
+
+<div class="ads">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Zapisnik.Glor.cz -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-5682429944123331"
+     data-ad-slot="4881798207"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
 
 <script>

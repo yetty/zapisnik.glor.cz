@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Zápisník - seznam kategorií{% endblock %}
+
+{% block content %}
+  <h1>Zápisník</h1>
+  <p class="intro">O cestování s batohem na zádech. Povídky i příběhy ze života.
+                   Fotografie ze zapadlých koutů světa i Česka.</p>
+
+  <h2>Kategorie</h2>
+  
+  <ul class="index">
+{% for category, articles in categories %}
+    <li>({{ articles|length }}) <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
+{% endfor %}
+</ul>
+{% endblock content %}

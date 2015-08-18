@@ -1,4 +1,4 @@
-Romance o růži
+﻿Romance o růži
 ==============
 
 :tags: povídky, doporučuji
@@ -41,7 +41,7 @@ si všiml zídky, přes kterou by se mohl k jednomu z domů pohodlně dostat. Za
 chvilku už stál na druhé straně a rozhlížel se po zahradě.
 
 Příliš toho neviděl. Vydal se k místu, kde tušil, že by mohl být záhonek. Odhad
-se ukázal být správným. Na nic nečekal a rychle se chopil první z květin.
+se ukázal být správným. Rychle se chopil první z květin.
 Projela jím bolest, jak mu trny růže zajely do prstů. Zatnul zuby.
 
 Za chvíli už stál vítězně s rukama od krve a s růží venku. Rychle oklepal hlínu
