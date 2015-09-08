@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Zápisník</title><link href="http://zapisnik.glor.cz/" rel="alternate"></link><link href="http://zapisnik.glor.cz/feeds/all.atom.xml" rel="self"></link><id>http://zapisnik.glor.cz/</id><updated>2015-07-31T00:00:00+02:00</updated><entry><title>Balada pro Helmhof</title><link href="http://zapisnik.glor.cz/balada-pro-helmhof.html" rel="alternate"></link><updated>2015-07-31T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-07-31:balada-pro-helmhof.html</id><summary type="html">&lt;p class="intro"&gt;Balada pro Helmhof. Protože&amp;nbsp;zůstal.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Zápisník</title><link href="http://zapisnik.glor.cz/" rel="alternate"></link><link href="http://zapisnik.glor.cz/feeds/all.atom.xml" rel="self"></link><id>http://zapisnik.glor.cz/</id><updated>2015-09-08T00:00:00+02:00</updated><entry><title>LaTeX a dějepis, tip #6 — sledujeme změny</title><link href="http://zapisnik.glor.cz/latex-tip-6.html" rel="alternate"></link><updated>2015-09-08T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-09-08:latex-tip-6.html</id><summary type="html">&lt;p class="intro"&gt;Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit elegantně.&lt;/p&gt;
+&lt;div id="tip-6-sledujeme-zmeny" class="section"&gt;
+&lt;h2&gt;Tip #6 - sledujeme změny&lt;/h2&gt;
+&lt;p&gt;Rozhodli jste se psát svou práci v Latexu a teď před sebou máte neřešitelný problém — váš vedoucí si stěžuje, že nevidí, co jste změnili oproti předchozí verzi a proč že to vlastně nemůžete psát ve Wordu, že tam to jde jednoduše.&lt;/p&gt;
+&lt;p&gt;K porovnávání dvou verzí TeX dokumentů slouží nástroj jménem &lt;a class="reference external" href="http://ftp.cvut.cz/tex-archive/support/latexdiff/doc/latexdiff-man.pdf"&gt;latexdiff&lt;/a&gt;. &lt;span class="strike"&gt;Nejpohodlnějši je samozřejmě rozběhat si ho na vlastním počítači, ale pokud jste se pořád k lokální instalaci LaTeXu nerozhoupali a vytváříte práci online, nemusíte si zoufat. Jde to také díky stránce 3142.nl.&lt;/span&gt; &lt;sup id="sf-latex-tip-6-1-back"&gt;&lt;a title="Ukázalo se, že odkazovaná stránka již bohužel nefunguje. Nezbývá tedy nic jiného, než latexdiff nainstalovat k sobě do počítače." class="simple-footnote" href="#sf-latex-tip-6-1"&gt;1&lt;/a&gt;&lt;/sup&gt; Tento nástroj se nachází již ve výchozí instalaci LaTeXu. Pokud ho tedy máte funkční, měli byste mít přístup i k němu.&lt;/p&gt;
+&lt;p&gt;Jak na to? Prvním důležitým krokem je vždy si &lt;strong&gt;uložit dokument v předcházející verzi&lt;/strong&gt;. Server &lt;a class="reference external" href="https://www.overleaf.com/"&gt;overleaf.com&lt;/a&gt; nabízí označovat si jednotlivé verze štítky, jde asi o nejjednodušší rešení. Druhým možným způsobem je si dokument vždy po odeslání uložit ve vlastním počítači. Existují samozřejmě i další možnosti, jak práci verzovat. Odvážnějším a počítačově zdatnějším vřele doporučuji &lt;a class="reference external" href="https://desktop.github.com/"&gt;git&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Máme tedy starší &lt;a class="reference external" href="https://www.overleaf.com/read/dgfdxthzbjfp"&gt;verzi dokumentu&lt;/a&gt; (označíme si ji jako &lt;em&gt;verze A&lt;/em&gt;), ve které &lt;a class="reference external" href="https://www.overleaf.com/read/yxykwfywhtzy"&gt;provedeme změny&lt;/a&gt; (&lt;em&gt;verze B&lt;/em&gt;). Nyní chceme vygenerovat &lt;span class="caps"&gt;PDF&lt;/span&gt;, které by tyto změny zobrazilo.&lt;/p&gt;
+&lt;p&gt;Příkaz, i s mými oblíbenými parametry, je takovýto:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;latexdiff -e utf8 -t CTRADITIONAL a.tex b.tex &amp;gt; c.tex
+&lt;/pre&gt;
+&lt;p&gt;Parametr &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;-e&lt;/span&gt;&lt;/tt&gt; se stará o správné zpracování českých (a dalších obskurních) znaků. Druhý parametr &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;-t&lt;/span&gt;&lt;/tt&gt; nastavuje způsob zobrazení změn. Jaké jsou možnosti a jak se liší je popsáno v &lt;a class="reference external" href="http://ftp.cvut.cz/tex-archive/support/latexdiff/doc/latexdiff-man.pdf"&gt;anglickém manuálu&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jak vypadá &lt;a class="reference external" href="https://www.overleaf.com/read/myfrksrxgxvc"&gt;výsledek, se můžete podívat zde&lt;/a&gt;.&lt;/p&gt;
+&lt;img src="https://farm6.staticflickr.com/5704/21244770855_e1b88c4d23_o.jpg" alt="Výsledné vygenerované PDF"&gt;
+&lt;/div&gt;
+&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-latex-tip-6-1"&gt;Ukázalo se, že odkazovaná stránka již bohužel nefunguje. Nezbývá tedy nic jiného, než latexdiff nainstalovat k sobě do počítače. &lt;a class="simple-footnote-back" href="#sf-latex-tip-6-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="latex"></category></entry><entry><title>Balada pro Helmhof</title><link href="http://zapisnik.glor.cz/balada-pro-helmhof.html" rel="alternate"></link><updated>2015-07-31T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-07-31:balada-pro-helmhof.html</id><summary type="html">&lt;p class="intro"&gt;Balada pro Helmhof. Protože&amp;nbsp;zůstal.&lt;/p&gt;
 &lt;p&gt;Stáli jsme vedle sebe. Ty jsi hleděl do údolí a viděl jsi tam život. Život,
 který pulzoval zběsile po silnicích, viděl jsi bijící srdce domů, dýchání
 stájí. Cítil jsi každou vlásečnici tohoto těla, jako by byla tvojí vlastní.
@@ -39,13 +53,18 @@ hnaní odjinud. Bojíme se&amp;nbsp;obou.&lt;/p&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 </summary><category term="básně"></category><category term="doporučuji"></category></entry><entry><title>LaTeX a dějepis, tip #5 — nedělitelné mezery</title><link href="http://zapisnik.glor.cz/latex-tip-5.html" rel="alternate"></link><updated>2015-05-27T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-05-27:latex-tip-5.html</id><summary type="html">&lt;p class="intro"&gt;Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit&amp;nbsp;elegantně.&lt;/p&gt;
+&lt;div class="section" id="tip-5-nedelitelne-mezery"&gt;
+&lt;h2&gt;Tip #5 - nedělitelné&amp;nbsp;mezery&lt;/h2&gt;
 &lt;p&gt;Základním znakem kvalitních prací je, že si autor dá pozor nejen na pravopisná a gramatická pravidla, ale i na úroveň typografickou. V tom se LaTeX naštěstí o většinu věcí postará za vás sám. Co ale při výchozím nastavení neřeší, jsou nedělitelné mezery po jednopísmenných&amp;nbsp;předložkách.&lt;/p&gt;
 &lt;p&gt;Nedělitelnou mezeru v LaTeXu vložíte znakem &lt;tt class="docutils literal"&gt;~&lt;/tt&gt;, ale doplňovat je ručně, to by byl opruz. Naštěstí je pro to udělátko od &lt;a class="reference external" href="http://math.feld.cvut.cz/olsak/"&gt;Petra Olšáka&lt;/a&gt; s názvem &lt;tt class="docutils literal"&gt;vlna&lt;/tt&gt;. Pro použití stačí načíst balíček na začátku&amp;nbsp;souboru:&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;
 \usepackage{xevlna}
 &lt;/pre&gt;
 &lt;p&gt;A tím je vše hotovo. Rozdíl můžete porovnat na těchto dvou dokumentech - &lt;a class="reference external" href="https://www.overleaf.com/read/dfzzprqwrgkv"&gt;první je bez použití vlny&lt;/a&gt; a ten &lt;a class="reference external" href="https://www.overleaf.com/read/fzstmmjzxmwp"&gt;druhý naopak s vlnou je&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </summary><category term="latex"></category></entry><entry><title>LaTeX a dějepis, tip #4 — citace podle ČČH (oddělovač jmen)</title><link href="http://zapisnik.glor.cz/latex-tip-4.html" rel="alternate"></link><updated>2015-05-26T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-05-26:latex-tip-4.html</id><summary type="html">&lt;p class="intro"&gt;Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit&amp;nbsp;elegantně.&lt;/p&gt;
+&lt;div class="section" id="tip-4-citace-podle-cch-oddelovac-jmen"&gt;
+&lt;h2&gt;Tip #4 - citace podle ČČH (oddělovač&amp;nbsp;jmen)&lt;/h2&gt;
 &lt;p&gt;Že to s vizuální úpravou bibliografie není jednoduché, jsme si řekli už v &lt;a class="reference external" href="http://zapisnik.glor.cz/latex-tip-3.html"&gt;minulém tipu&lt;/a&gt;. Tam jsme si také ukázali, jak se přiblížit citačnímu úzu Českého časopisu historického pořadím&amp;nbsp;jmen.&lt;/p&gt;
 &lt;p&gt;Dnešní tip nás posune zas o kousek dál. Podle pravidel ČČH by se více autorů mělo oddělovat pomocí pomlčky (&lt;tt class="docutils literal"&gt;—&lt;/tt&gt;). Tato úprava zas není nikterak složitá, opět bude stačit přidat dva řádky někam nad začátek&amp;nbsp;dokumentu:&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;
@@ -55,7 +74,10 @@ hnaní odjinud. Bojíme se&amp;nbsp;obou.&lt;/p&gt;
 &lt;p&gt;Výsledek pak vypadá&amp;nbsp;takto:&lt;/p&gt;
 &lt;img alt="Výsledek s pomlčkou jako oddělovačem" src="images/2015-05-26-latex-tip-4/vysledek.png" /&gt;
 &lt;p&gt;Jako obvykle vás v případě nejasností odkáži na &lt;a class="reference external" href="https://www.overleaf.com/read/pcjmngjdsjyx"&gt;živou ukázku&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </summary><category term="latex"></category><category term="ččh"></category></entry><entry><title>LaTeX a dějepis, tip #3 — citace podle ČČH (pořadí jmen)</title><link href="http://zapisnik.glor.cz/latex-tip-3.html" rel="alternate"></link><updated>2015-05-25T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-05-25:latex-tip-3.html</id><summary type="html">&lt;p class="intro"&gt;Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit&amp;nbsp;elegantně.&lt;/p&gt;
+&lt;div class="section" id="tip-3-citace-podle-cch-poradi-jmen"&gt;
+&lt;h2&gt;Tip #3 - citace podle ČČH (pořadí&amp;nbsp;jmen)&lt;/h2&gt;
 &lt;p&gt;Jak tomu bývá, ani historici se nemohou dohodnout na jedné závazné formě citací a tak každý používá takový formát, jaký se mu zrovna líbí. Existující normy se berou spíše jako doporučení a tak často záleží na zlovůli vedoucího vaší práce, jakou podobu bibliografie po vás bude&amp;nbsp;chtít.&lt;/p&gt;
 &lt;p&gt;Asi nejčastěji po vás budou požadovat citace podle &lt;a class="reference external" href="http://www.hiu.cas.cz/cs/nakladatelstvi/periodika/cesky-casopis-historicky/citacni-uzus.ep/"&gt;Českého časopisu historického&lt;/a&gt;. Ten má od výchozího nastavení LaTeXu tak, jak jsme si ho &lt;a class="reference external" href="http://zapisnik.glor.cz/latex-tip-2.html"&gt;ukázali minule&lt;/a&gt;, řadu odlišností. Tou nejvýraznější je pořadí &lt;tt class="docutils literal"&gt;Jméno, PŘÍ&lt;span class="caps"&gt;JMEN&lt;/span&gt;Í&lt;/tt&gt;. Jak ho prohodit i v našich&amp;nbsp;dokumentech?&lt;/p&gt;
 &lt;p&gt;Jde to jednoduše pomocí dvou příkazů, které se vloží ještě před začátek&amp;nbsp;dokumentu:&lt;/p&gt;
@@ -66,6 +88,7 @@ hnaní odjinud. Bojíme se&amp;nbsp;obou.&lt;/p&gt;
 &lt;p&gt;Výsledek pak vypadá nějak&amp;nbsp;takto:&lt;/p&gt;
 &lt;img alt="Výsledek s prohozením pořadím jmen" src="images/2015-05-25-latex-tip-3/vysledek.png" /&gt;
 &lt;p&gt;Pokud stále nevíte, jak na to, tady máte &lt;a class="reference external" href="https://www.overleaf.com/read/tgshbyshqftd"&gt;živou ukázku&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </summary><category term="latex"></category><category term="ččh"></category></entry><entry><title>LaTeX a dějepis, tip #2 — bibliografie</title><link href="http://zapisnik.glor.cz/latex-tip-2.html" rel="alternate"></link><updated>2015-05-24T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-05-24:latex-tip-2.html</id><summary type="html">&lt;p class="intro"&gt;Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit&amp;nbsp;elegantně.&lt;/p&gt;
 &lt;div class="section" id="tip-2-bibliografie"&gt;
 &lt;h2&gt;Tip #2 -&amp;nbsp;bibliografie&lt;/h2&gt;
@@ -115,7 +138,7 @@ Tohle se píše v \cite[s. 128]{carson:uvod-do-noveho}.
 A tohle je pravda.\footcite{franzen:male-cirkevni}
 &lt;/pre&gt;
 &lt;p&gt;Pokud na konci práce chcete mít kompletní použitou literaturu a prameny, slouží k tomu příkaz &lt;cite&gt;printbibliography&lt;/cite&gt;.&lt;/p&gt;
-&lt;p&gt;Podrobnější informace naleznete nejlépe zase ve &lt;a class="reference external" href="https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management"&gt;wiki&lt;/a&gt;. Jak může výsledný dokumentt vypadat si můzete prohlédnout &lt;a class="reference external" href="https://www.overleaf.com/read/gcmncsbrwvmd"&gt;zde&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Podrobnější informace naleznete nejlépe zase ve &lt;a class="reference external" href="https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management"&gt;wiki&lt;/a&gt;. Jak může výsledný dokument vypadat si můzete prohlédnout &lt;a class="reference external" href="https://www.overleaf.com/read/gcmncsbrwvmd"&gt;zde&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="latex"></category></entry><entry><title>LaTeX a dějepis, tip #1 — sázejte online</title><link href="http://zapisnik.glor.cz/latex-tip-1.html" rel="alternate"></link><updated>2015-05-23T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2015-05-23:latex-tip-1.html</id><summary type="html">&lt;p class="intro"&gt;Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit&amp;nbsp;elegantně.&lt;/p&gt;
 &lt;div class="section" id="tip-1-sazejte-online"&gt;
@@ -247,7 +270,7 @@ zákon. Strážci ukročili zpět. Rozhazovali rukama, bránili paragrafy a ukaz
 na pár mincí na zemi. Obránce přibouchl víko a vycenil zuby. Dívka naproti se
 znovu&amp;nbsp;roztančila.&lt;/p&gt;
 &lt;p&gt;Kdo chtěl, víko si nadzvedl. A nebylo nás&amp;nbsp;málo.&lt;/p&gt;
-</summary></entry><entry><title>Srdečná</title><link href="http://zapisnik.glor.cz/srdecni.html" rel="alternate"></link><updated>2014-05-28T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2014-05-28:srdecni.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary><category term="povídky"></category><category term="hudba"></category></entry><entry><title>Srdečná</title><link href="http://zapisnik.glor.cz/srdecni.html" rel="alternate"></link><updated>2014-05-28T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2014-05-28:srdecni.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Byl šedý kostel, šedé hroby,&lt;/div&gt;
 &lt;div class="line"&gt;v nich nebožtíků spala těla&lt;/div&gt;
@@ -284,7 +307,7 @@ znovu&amp;nbsp;roztančila.&lt;/p&gt;
 &lt;p&gt;V Strakonicích na čas. Jde i Vašek.&lt;/p&gt;
 &lt;p&gt;Pavlův kamarád se nepřidává. Vyrážíme ve čtyřech.&lt;/p&gt;
 &lt;p&gt;Prší. Cesta se ztrácí za stěrači.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.militarydeathmarch.com" class="reference external"&gt;Start ve Vimperku&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.militarydeathmarch.com"&gt;Start ve Vimperku&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Spousta vojáků a maskovaných civilistů.&lt;/p&gt;
 &lt;p&gt;Nemají mne seznamu.&lt;/p&gt;
 &lt;p&gt;Prý jestli poručík Kaleta.&lt;/p&gt;
@@ -326,7 +349,7 @@ znovu&amp;nbsp;roztančila.&lt;/p&gt;
 &lt;p&gt;Křišťanovický rybník. Nepříjemná sedmnáctka na ukazateli.&lt;/p&gt;
 &lt;p&gt;Šlapeme po asfaltu.&lt;/p&gt;
 &lt;p&gt;Pavel začíná pokulhávat.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Možná to nebyl dobrej vtip, tu štreku pěšky jít.&lt;/em&gt; &lt;sup id="sf-military-death-march-2014-1-back"&gt;&lt;a href="#sf-military-death-march-2014-1" class="simple-footnote" title="Cestou za tebou, Marien, CD Folk žije! 2013."&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Možná to nebyl dobrej vtip, tu štreku pěšky jít.&lt;/em&gt; &lt;sup id="sf-military-death-march-2014-1-back"&gt;&lt;a title="Cestou za tebou, Marien, CD Folk žije! 2013." class="simple-footnote" href="#sf-military-death-march-2014-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Neprší pořád stejně. Občas prší víc.&lt;/p&gt;
 &lt;p&gt;Přecházíme přes Blanici a stoupáme.&lt;/p&gt;
 &lt;p&gt;Pavel přemýšlí o konci.&lt;/p&gt;
@@ -368,7 +391,7 @@ znovu&amp;nbsp;roztančila.&lt;/p&gt;
 &lt;p&gt;Nemůžu chodit.&lt;/p&gt;
 &lt;p&gt;Buším to zahorka do počítače. Číst to po sobě nebudu, na chyby a překlepy vám
 kašlu. Dobrou noc.&lt;/p&gt;
-&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-military-death-march-2014-1"&gt;Cestou za tebou, Marien, &lt;span class="caps"&gt;CD&lt;/span&gt; Folk žije! 2013. &lt;a href="#sf-military-death-march-2014-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Šumava"></category></entry><entry><title>O holce z perónu</title><link href="http://zapisnik.glor.cz/o-holce-z-peronu.html" rel="alternate"></link><updated>2014-03-10T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2014-03-10:o-holce-z-peronu.html</id><summary type="html">&lt;p&gt;Seděl jsem sám za kulatým stolem v nevelké putyce, poslouchal folkové umělce a
+&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-military-death-march-2014-1"&gt;Cestou za tebou, Marien, &lt;span class="caps"&gt;CD&lt;/span&gt; Folk žije! 2013. &lt;a class="simple-footnote-back" href="#sf-military-death-march-2014-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Šumava"></category></entry><entry><title>O holce z perónu</title><link href="http://zapisnik.glor.cz/o-holce-z-peronu.html" rel="alternate"></link><updated>2014-03-10T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2014-03-10:o-holce-z-peronu.html</id><summary type="html">&lt;p&gt;Seděl jsem sám za kulatým stolem v nevelké putyce, poslouchal folkové umělce a
 užíval si chvíle ticha mezi čísly. Někde mezi písničkou o chlupaté hrudi a
 dramatickým recitativem, někde mezi čtvrtým a pátým pivem, ke mně přisedl.
 Přišel mi povědomý - taková tvář, na kterou se zadíváte a vidíte chvíli
@@ -1305,7 +1328,7 @@ méně povedených panorámat z Jizerských&amp;nbsp;hor:&lt;/p&gt;
 dvou organizátorů. Byla to jakási jednodušší šifrovačka spojená s pár akčními
 prvky (které se příliš nepovedly).&lt;/p&gt;
 &lt;p&gt;Hra byla založená na následujícím příběhu. Jediné, co k vyřešení úkolu
-potřebujete je dobrý nápad a &lt;a href="http://g.co/maps/u2dz6" class="reference external"&gt;mapa Domažlic&lt;/a&gt;. Celá story
+potřebujete je dobrý nápad a &lt;a class="reference external" href="http://g.co/maps/u2dz6"&gt;mapa Domažlic&lt;/a&gt;. Celá story
 je trochu upocená - chtěl jsem z toho udělat veledílo, ale trochu jsem
 nestíhal, málo spal a tak vzniklo, co vzniklo…&lt;/p&gt;
 &lt;/div&gt;
@@ -1348,7 +1371,7 @@ pozorně poslouchejte, kudy dál:&lt;/p&gt;
 dohledu nebyl nikdo další, koho by se mohl zeptat, seděl a přemýšlel. Pak se
 podíval na ceduli s názvem ulice, usmál se, pomalu projel pár ulicemi a na
 konci jedné zastavil a zamířil k vrátnici.&lt;/p&gt;
-&lt;p&gt;Řešení je v poznámkách pod čarou.&lt;sup id="sf-drama-v-domazlicich-1-back"&gt;&lt;a href="#sf-drama-v-domazlicich-1" class="simple-footnote" title=" Asi není překvapením, že řešení spočívá v dvou básních, které slyšel pán v autě jako nápovědu k cestě. První je úryvek z Máchova Máje, to by nemělo být až tak těžké poznat. Druhý básník není až tolik profláklý - nicméně pro gymplány z Klatov by to měla být hračka. Jedná se o Jaroslava Vrchlického, vlastním jménem Emila Frýdu. Pokud se podíváte na mapu Domažlic, nalezneta tam sousedící ulice Máchova a Vrchlického. Pokud půjdete nejdříve Máchovou, pokračovat budete až na konec ulice Vrchlického, dojdete až k penzionu pro důchodce. Tam bylo schováno pokračování. "&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení je v poznámkách pod čarou.&lt;sup id="sf-drama-v-domazlicich-1-back"&gt;&lt;a title=" Asi není překvapením, že řešení spočívá v dvou básních, které slyšel pán v autě jako nápovědu k cestě. První je úryvek z Máchova Máje, to by nemělo být až tak těžké poznat. Druhý básník není až tolik profláklý - nicméně pro gymplány z Klatov by to měla být hračka. Jedná se o Jaroslava Vrchlického, vlastním jménem Emila Frýdu. Pokud se podíváte na mapu Domažlic, nalezneta tam sousedící ulice Máchova a Vrchlického. Pokud půjdete nejdříve Máchovou, pokračovat budete až na konec ulice Vrchlického, dojdete až k penzionu pro důchodce. Tam bylo schováno pokračování. " class="simple-footnote" href="#sf-drama-v-domazlicich-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id1" class="section"&gt;
 &lt;h2&gt;2. stanoviště&lt;/h2&gt;
@@ -1376,7 +1399,7 @@ pomalu otevřel ooči a prázdným pohledem se zahleděl před sebe.&lt;/p&gt;
 &lt;p&gt;"Marku, já ti odpustil," pokračoval tedy pomalu, "usmiřte se s bratrem. Co bylo
 moje, bude vaše. Buďte zajedno a pokračuvte v mém díle. To je mé poslední
 přání. A teď běžte, chci být sám."&lt;/p&gt;
-&lt;p&gt;Řešení opět pod čarou.&lt;sup id="sf-drama-v-domazlicich-2-back"&gt;&lt;a href="#sf-drama-v-domazlicich-2" class="simple-footnote" title=' Druhá šifra byla patrně nejjednodušší. V textu se nacházelo očividně moc překlepů na to, aby to byla náhoda. Stačilo poskládat za sebe všechna písmenka, která byla špatně, aby byla vidět zpráva: "sever hřbitov". Po pohledu do mapy bylo opět jasno - zhruba na severu Domažlic se nachází židovský hřbitov.'&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení opět pod čarou.&lt;sup id="sf-drama-v-domazlicich-2-back"&gt;&lt;a title=' Druhá šifra byla patrně nejjednodušší. V textu se nacházelo očividně moc překlepů na to, aby to byla náhoda. Stačilo poskládat za sebe všechna písmenka, která byla špatně, aby byla vidět zpráva: "sever hřbitov". Po pohledu do mapy bylo opět jasno - zhruba na severu Domažlic se nachází židovský hřbitov.' class="simple-footnote" href="#sf-drama-v-domazlicich-2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id2" class="section"&gt;
 &lt;h2&gt;3. stanoviště&lt;/h2&gt;
@@ -1406,7 +1429,7 @@ Pomalu vycházel po schodech. Pokoj měl skoro až nahoře a výtah opět nikde�
 &lt;p&gt;"To je zvláštní," pomyslel si, když se seshora podíval na točité schody, "asi
 moderní architektura."&lt;/p&gt;
 &lt;img src="images/2012-05-02-drama-v-domazlicich/schodiste.png" alt=""&gt;
-&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-3-back"&gt;&lt;a href="#sf-drama-v-domazlicich-3" class="simple-footnote" title=' Tentokrát to bylo těžší. Všimnout si bylo potřeba několik věcí - zaprvé jsou některá políčka bílá, jiná kostičkovaná. Dále jsou některá oddělená jednoduchou čárou, jiná dvojitou. Pak také schodiště netvoří spirálu, ale soustředné kružnice. A pak už je to jednoduché - první nápad je vždy vyzkoušet morseovku. A kupodivu je to nápad správný. Bílá políčka jsou tečky, tmavá políčka jsou čárky, dvojitá čára odděluje písmena a v každém mezikruží je právě jedno slovo. Po převedení vychází zpráva "hriste 500 metru".'&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-3-back"&gt;&lt;a title=' Tentokrát to bylo těžší. Všimnout si bylo potřeba několik věcí - zaprvé jsou některá políčka bílá, jiná kostičkovaná. Dále jsou některá oddělená jednoduchou čárou, jiná dvojitou. Pak také schodiště netvoří spirálu, ale soustředné kružnice. A pak už je to jednoduché - první nápad je vždy vyzkoušet morseovku. A kupodivu je to nápad správný. Bílá políčka jsou tečky, tmavá políčka jsou čárky, dvojitá čára odděluje písmena a v každém mezikruží je právě jedno slovo. Po převedení vychází zpráva "hriste 500 metru".' class="simple-footnote" href="#sf-drama-v-domazlicich-3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id3" class="section"&gt;
 &lt;h2&gt;4. stanoviště&lt;/h2&gt;
@@ -1433,7 +1456,7 @@ tolik jistý nebyl.&lt;/p&gt;
 &lt;p&gt;"Zajímavé, hochu, a co to je?" nedalo mu to, aby se nezeptal.&lt;/p&gt;
 &lt;p&gt;"To, to, to nic není. Nic!" odpověděl překvapeně chlapeček a rychle zmizel v domu.&lt;/p&gt;
 &lt;img src="images/2012-05-02-drama-v-domazlicich/image01.png" alt=""&gt;
-&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-4-back"&gt;&lt;a href="#sf-drama-v-domazlicich-4" class="simple-footnote" title=' Čísla evokují vzpomínky na staré spojování, kdy vždy vyšel nějaký obrázek. Tady to bylo něco na tento způsob, jen o malinko komplikovanější. Nestačilo spojovat čísla. Musely se spojovat středy příslušných kružnic. Potom se z čmáranice vylouplo "BUS 4".'&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-4-back"&gt;&lt;a title=' Čísla evokují vzpomínky na staré spojování, kdy vždy vyšel nějaký obrázek. Tady to bylo něco na tento způsob, jen o malinko komplikovanější. Nestačilo spojovat čísla. Musely se spojovat středy příslušných kružnic. Potom se z čmáranice vylouplo "BUS 4".' class="simple-footnote" href="#sf-drama-v-domazlicich-4"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id4" class="section"&gt;
 &lt;h2&gt;5. stanoviště&lt;/h2&gt;
@@ -1477,7 +1500,7 @@ vlastní význam."&lt;/p&gt;
 
 Srpen
 &lt;/pre&gt;
-&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-5-back"&gt;&lt;a href="#sf-drama-v-domazlicich-5" class="simple-footnote" title=' Opět něco jednoduššího. Na první pohled je převaha lichých čísel. Sudé musíte chvilku hledat. Když si je zabarvíte, vyleze vám z obrázku kód "WC". Co s tím už není těžké domyslet. Srpen ještě napovídá přibližný směr (jihovýchod).'&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-5-back"&gt;&lt;a title=' Opět něco jednoduššího. Na první pohled je převaha lichých čísel. Sudé musíte chvilku hledat. Když si je zabarvíte, vyleze vám z obrázku kód "WC". Co s tím už není těžké domyslet. Srpen ještě napovídá přibližný směr (jihovýchod).' class="simple-footnote" href="#sf-drama-v-domazlicich-5"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id5" class="section"&gt;
 &lt;h2&gt;6. stanoviště&lt;/h2&gt;
@@ -1501,7 +1524,7 @@ vůbec chceš odvézt?"&lt;/p&gt;
 &lt;p&gt;Náhle jí ruka vystřelila k břichu a z úst se jí vydralo bolestné zaskučení.
 "Jsi v pořádku?" otočil se na ni znepokojeně Marek.
 "Jsem, jsem. Ale jeď, prosím, jeď rychle…"&lt;/p&gt;
-&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-6-back"&gt;&lt;a href="#sf-drama-v-domazlicich-6" class="simple-footnote" title=" Opět nic složitého, stačilo se dobře podívat na mapu a ulice Domažlic opravdu na jednom místě podobný tvar tvořily. Jen byl trochu jinak otočený. Cílovým místem pak byla nemocnice."&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení pod čarou.&lt;sup id="sf-drama-v-domazlicich-6-back"&gt;&lt;a title=" Opět nic složitého, stačilo se dobře podívat na mapu a ulice Domažlic opravdu na jednom místě podobný tvar tvořily. Jen byl trochu jinak otočený. Cílovým místem pak byla nemocnice." class="simple-footnote" href="#sf-drama-v-domazlicich-6"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id6" class="section"&gt;
 &lt;h2&gt;7. stanoviště&lt;/h2&gt;
@@ -1527,7 +1550,7 @@ Během toho, co se přehraboval v zásuvkách stolu se stále smál. Vyndal na s
 &lt;p&gt;"To bude divadlo!" řekl a vyběhl za dveří.&lt;/p&gt;
 &lt;p&gt;Vlasta pomalu vstala a došla do kuchyně. Tam si vzala hrst prášků a zapila je
 sklenicí vody. Pak si povzdychla a začala vytáčet číslo na telefonu.&lt;/p&gt;
-&lt;p&gt;Řešení.&lt;sup id="sf-drama-v-domazlicich-7-back"&gt;&lt;a href="#sf-drama-v-domazlicich-7" class="simple-footnote" title=' Tentokrát zaujmou slova psaná kurzívou: Hus, topit, dole. Co by mohla znamenat? Opět pomůže pohled do mapy - nedaleko se nachází Husův park. A v něm dva rybníčky, k čemu jinému by mohlo vést "topit"? Poslední slovíčko naznačuje, že se bude jednat o ten jižnější.'&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení.&lt;sup id="sf-drama-v-domazlicich-7-back"&gt;&lt;a title=' Tentokrát zaujmou slova psaná kurzívou: Hus, topit, dole. Co by mohla znamenat? Opět pomůže pohled do mapy - nedaleko se nachází Husův park. A v něm dva rybníčky, k čemu jinému by mohlo vést "topit"? Poslední slovíčko naznačuje, že se bude jednat o ten jižnější.' class="simple-footnote" href="#sf-drama-v-domazlicich-7"&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="id7" class="section"&gt;
 &lt;h2&gt;8. stanoviště&lt;/h2&gt;
@@ -1537,7 +1560,7 @@ a označte vraha. Samozřejmě musíte, stejně jako pan Poirot, poskytnout nál
 vysvětlení. Ale to už pro vás bude, po celodenních útrapách a bojováním s
 šiframi, legrace.&lt;/p&gt;
 &lt;img src="images/2012-05-02-drama-v-domazlicich/noviny.jpg" alt=""&gt;
-&lt;p&gt;Řešení, dole.&lt;sup id="sf-drama-v-domazlicich-8-back"&gt;&lt;a href="#sf-drama-v-domazlicich-8" class="simple-footnote" title=" S odhalením vraha začneme pěkně od konce. Kdo je oběť? V příběhu se vyskytují celkem tři živí muži. Marek, Lukáš nebo neznámý kupce podílu. Obchodníka z toho vynecháme - Lukáš by sice měl motiv vraždit, ale není zmínka o tom, že by identitu kupce znal, to, že bratr svůj podíl prodal, mu prozradila manželka. Další na pořadí je sám Lukáš. Proč by to nemohl být on? U oběti nebyla nalezena žádná zbraň, alespoň o tom není zmínka. Pistoli by si někdo musel odnést s sebou. To ještě není nic nemožného. Jenže kdo by měl motiv? Marek? Patrně by ničeho nedosáhl. Pak tu kupec podílu, ten by motiv měl, ale slabý - sice by odstranil druhého vlastníka podniku, ale neměl by žádnou jistotu, že podíl získá. Ten tedy také ne. Poslední možností je manželka. A opět chybí motiv. Poslední možnou obětí je Marek. A je to asi možnost nejpravděpodobnější. Lukáš se dokonce vyjadřuje tak, že to vypadá, jako kdyby ho během pár minut měl zastřelit. Jenže oběť není zastřelena, je zabodnuta nožem. Proč by Lukáš měnil zbraň? Navíc vyběhl z domu v celkem silném afektu, patrně by Marka ani neměl šanci najít, možná by z něho dříve naštvání vyprchalo. Kdo může být vrahem dál? Kupec podílu k tomu také žádnou motivaci nemá. Zbývá manželka Lukáše, Vlasta. Z příběhu víme, že je vážně nemocná - má silné bolesti břicha, zežloutlou kůži. Jezdí často do nemocnice. Vypadá unaveně, pohuble. Těžko dohadovat, co za nemoc má, nejvíce to vypadá na rakovinu slinivky břišní, u které není příliš mnoho šancí na přežití. Vlasta tedy patrně ví, že umírá. Vidí manžela, který je silně odhodlán k vraždě, k vraždě vlastního bratra, který je černou ovcí rodiny už dlouhá léta a Lukáš k němu nic necítí. Bratra neměl v lásce, teď ho vyloženě nenávidí. Co by se stalo, pokud by na Marka náhodou narazil a zastřelil ho? Těžko by mohl vraždu zatajit. Jistých by tak měl pár let natvrdo. S manželkou, která umírá, a synem, kterému bude teprve jedenáct. Vlasta se tedy rychle rozhoduje.  Zavolá Markovi a domluví si s ním schůzku. Možná se ho nejdříve snaží přesvědčit, aby z města odjel. Kdo ví. Je možné, že Marek nebere hrozbu vážně a Vlasta je donucena okolnostmi ke krajnímu řešení. Zachránit synovi alespoň otce. …to je autorské řešení. Samozřejmě k soudu bychom potřebovali důkazů o něco více. Pokud s řešením nesouhlasíte, ocením alternativní pohled ;)"&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Řešení, dole.&lt;sup id="sf-drama-v-domazlicich-8-back"&gt;&lt;a title=" S odhalením vraha začneme pěkně od konce. Kdo je oběť? V příběhu se vyskytují celkem tři živí muži. Marek, Lukáš nebo neznámý kupce podílu. Obchodníka z toho vynecháme - Lukáš by sice měl motiv vraždit, ale není zmínka o tom, že by identitu kupce znal, to, že bratr svůj podíl prodal, mu prozradila manželka. Další na pořadí je sám Lukáš. Proč by to nemohl být on? U oběti nebyla nalezena žádná zbraň, alespoň o tom není zmínka. Pistoli by si někdo musel odnést s sebou. To ještě není nic nemožného. Jenže kdo by měl motiv? Marek? Patrně by ničeho nedosáhl. Pak tu kupec podílu, ten by motiv měl, ale slabý - sice by odstranil druhého vlastníka podniku, ale neměl by žádnou jistotu, že podíl získá. Ten tedy také ne. Poslední možností je manželka. A opět chybí motiv. Poslední možnou obětí je Marek. A je to asi možnost nejpravděpodobnější. Lukáš se dokonce vyjadřuje tak, že to vypadá, jako kdyby ho během pár minut měl zastřelit. Jenže oběť není zastřelena, je zabodnuta nožem. Proč by Lukáš měnil zbraň? Navíc vyběhl z domu v celkem silném afektu, patrně by Marka ani neměl šanci najít, možná by z něho dříve naštvání vyprchalo. Kdo může být vrahem dál? Kupec podílu k tomu také žádnou motivaci nemá. Zbývá manželka Lukáše, Vlasta. Z příběhu víme, že je vážně nemocná - má silné bolesti břicha, zežloutlou kůži. Jezdí často do nemocnice. Vypadá unaveně, pohuble. Těžko dohadovat, co za nemoc má, nejvíce to vypadá na rakovinu slinivky břišní, u které není příliš mnoho šancí na přežití. Vlasta tedy patrně ví, že umírá. Vidí manžela, který je silně odhodlán k vraždě, k vraždě vlastního bratra, který je černou ovcí rodiny už dlouhá léta a Lukáš k němu nic necítí. Bratra neměl v lásce, teď ho vyloženě nenávidí. Co by se stalo, pokud by na Marka náhodou narazil a zastřelil ho? Těžko by mohl vraždu zatajit. Jistých by tak měl pár let natvrdo. S manželkou, která umírá, a synem, kterému bude teprve jedenáct. Vlasta se tedy rychle rozhoduje.  Zavolá Markovi a domluví si s ním schůzku. Možná se ho nejdříve snaží přesvědčit, aby z města odjel. Kdo ví. Je možné, že Marek nebere hrozbu vážně a Vlasta je donucena okolnostmi ke krajnímu řešení. Zachránit synovi alespoň otce. …to je autorské řešení. Samozřejmě k soudu bychom potřebovali důkazů o něco více. Pokud s řešením nesouhlasíte, ocením alternativní pohled ;)" class="simple-footnote" href="#sf-drama-v-domazlicich-8"&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol class="simple-footnotes"&gt;&lt;li id="sf-drama-v-domazlicich-1"&gt;
 Asi není překvapením, že řešení spočívá v dvou básních, které slyšel pán v autě
@@ -1545,31 +1568,31 @@ jako nápovědu k cestě. První je úryvek z Máchova Máje, to by nemělo být
 až tolik profláklý - nicméně pro gymplány z Klatov by to měla být hračka. Jedná se
 o Jaroslava Vrchlického, vlastním jménem Emila Frýdu. Pokud se podíváte na mapu Domažlic, nalezneta tam sousedící ulice Máchova a Vrchlického.
 Pokud půjdete nejdříve Máchovou, pokračovat budete až na konec ulice Vrchlického, dojdete
-až k penzionu pro důchodce. Tam bylo schováno pokračování.  &lt;a href="#sf-drama-v-domazlicich-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-2"&gt;
+až k penzionu pro důchodce. Tam bylo schováno pokračování.  &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-2"&gt;
 Druhá šifra byla patrně nejjednodušší. V textu se nacházelo očividně moc
 překlepů na to, aby to byla náhoda. Stačilo poskládat za sebe všechna písmenka,
 která byla špatně, aby byla vidět zpráva: "sever hřbitov". Po pohledu do mapy bylo
-opět jasno - zhruba na severu Domažlic se nachází židovský hřbitov. &lt;a href="#sf-drama-v-domazlicich-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-3"&gt;
+opět jasno - zhruba na severu Domažlic se nachází židovský hřbitov. &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-2-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-3"&gt;
 Tentokrát to bylo těžší. Všimnout si bylo potřeba několik věcí - zaprvé jsou
 některá políčka bílá, jiná kostičkovaná. Dále jsou některá oddělená jednoduchou
 čárou, jiná dvojitou. Pak také schodiště netvoří spirálu, ale soustředné kružnice.
 A pak už je to jednoduché - první nápad je vždy vyzkoušet morseovku. A kupodivu
 je to nápad správný. Bílá políčka jsou tečky, tmavá políčka jsou čárky, dvojitá
 čára odděluje písmena a v každém mezikruží je právě jedno slovo.
-Po převedení vychází zpráva "hriste 500 metru". &lt;a href="#sf-drama-v-domazlicich-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-4"&gt;
+Po převedení vychází zpráva "hriste 500 metru". &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-3-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-4"&gt;
 Čísla evokují vzpomínky na staré spojování, kdy vždy vyšel nějaký obrázek.
 Tady to bylo něco na tento způsob, jen o malinko komplikovanější. Nestačilo spojovat
 čísla. Musely se spojovat středy příslušných kružnic. Potom se z čmáranice
-vylouplo "&lt;span class="caps"&gt;BUS&lt;/span&gt; 4". &lt;a href="#sf-drama-v-domazlicich-4-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-5"&gt;
+vylouplo "&lt;span class="caps"&gt;BUS&lt;/span&gt; 4". &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-4-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-5"&gt;
 Opět něco jednoduššího. Na první pohled je převaha lichých čísel. Sudé musíte
 chvilku hledat. Když si je zabarvíte, vyleze vám z obrázku kód "&lt;span class="caps"&gt;WC&lt;/span&gt;". Co s tím už
-není těžké domyslet. Srpen ještě napovídá přibližný směr (jihovýchod). &lt;a href="#sf-drama-v-domazlicich-5-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-6"&gt;
+není těžké domyslet. Srpen ještě napovídá přibližný směr (jihovýchod). &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-5-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-6"&gt;
 Opět nic složitého, stačilo se dobře podívat na mapu a ulice Domažlic opravdu
 na jednom místě podobný tvar tvořily. Jen byl trochu jinak otočený. Cílovým místem
-pak byla nemocnice. &lt;a href="#sf-drama-v-domazlicich-6-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-7"&gt;
+pak byla nemocnice. &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-6-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-7"&gt;
 Tentokrát zaujmou slova psaná kurzívou: Hus, topit, dole. Co by mohla znamenat?
 Opět pomůže pohled do mapy - nedaleko se nachází Husův park. A v něm dva rybníčky, k čemu
-jinému by mohlo vést "topit"? Poslední slovíčko naznačuje, že se bude jednat o ten jižnější. &lt;a href="#sf-drama-v-domazlicich-7-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-8"&gt;
+jinému by mohlo vést "topit"? Poslední slovíčko naznačuje, že se bude jednat o ten jižnější. &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-7-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-drama-v-domazlicich-8"&gt;
 S odhalením vraha začneme pěkně od konce. Kdo je oběť?
 V příběhu se vyskytují celkem tři živí muži. Marek, Lukáš nebo neznámý kupce podílu.
 Obchodníka z toho vynecháme - Lukáš by sice měl motiv vraždit, ale není zmínka o tom,
@@ -1599,7 +1622,7 @@ ho nejdříve snaží přesvědčit, aby z města odjel. Kdo ví. Je možné, ž
 hrozbu vážně a Vlasta je donucena okolnostmi ke krajnímu řešení. Zachránit synovi alespoň
 otce.
 …to je autorské řešení. Samozřejmě k soudu bychom potřebovali důkazů o něco více.
-Pokud s řešením nesouhlasíte, ocením alternativní pohled ;) &lt;a href="#sf-drama-v-domazlicich-8-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="hry"></category></entry><entry><title>Z Jizery</title><link href="http://zapisnik.glor.cz/fotky-z-jizery.html" rel="alternate"></link><updated>2012-05-01T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2012-05-01:fotky-z-jizery.html</id><summary type="html">&lt;p class="intro"&gt;Další várka fotek z velikonoční návštěvy Jizerských hor. Tentokráte jsou všechny
+Pokud s řešením nesouhlasíte, ocením alternativní pohled ;) &lt;a class="simple-footnote-back" href="#sf-drama-v-domazlicich-8-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="hry"></category></entry><entry><title>Z Jizery</title><link href="http://zapisnik.glor.cz/fotky-z-jizery.html" rel="alternate"></link><updated>2012-05-01T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2012-05-01:fotky-z-jizery.html</id><summary type="html">&lt;p class="intro"&gt;Další várka fotek z velikonoční návštěvy Jizerských hor. Tentokráte jsou všechny
 fotky foceny z Jizery. Samozřejmě jsou i ve větším rozlišení, ale kapacity mého
 hostingu jsou omezeny a tak pokud nějakou fotku chcete ve větším, musíte si o
 ni&amp;nbsp;říct.&lt;/p&gt;
@@ -1836,7 +1859,7 @@ opravu&amp;nbsp;dost.&lt;/p&gt;
 &lt;h2&gt;Panoráma Jizerských&amp;nbsp;hor&lt;/h2&gt;
 &lt;script src="http://zoom.it/uCKB.js?width=auto&amp;height=400px"&gt;&lt;/script&gt;&lt;/div&gt;
 </summary><category term="fotky"></category><category term="Jizerky"></category></entry><entry><title>Google ví…</title><link href="http://zapisnik.glor.cz/google-vi.html" rel="alternate"></link><updated>2012-03-02T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2012-03-02:google-vi.html</id><summary type="html">&lt;p class="intro"&gt;Všichni víme, že Google ví všechno, že? Nebo si alespoň myslí, že ví
-&lt;sup id="sf-google-vi-1-back"&gt;&lt;a href="#sf-google-vi-1" class="simple-footnote" title="Měli jste na mysli… Ne neměli a neříkej mi, co jsem si myslel!"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;sup id="sf-google-vi-1-back"&gt;&lt;a title="Měli jste na mysli… Ne neměli a neříkej mi, co jsem si myslel!" class="simple-footnote" href="#sf-google-vi-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Tak proč se ho nezeptat, co vlastně chceme.&lt;/p&gt;
 &lt;img src="images/2012-03-02-google-vi/chci.jpg" alt=""&gt;
 &lt;img src="images/2012-03-02-google-vi/nechci.jpg" alt=""&gt;
@@ -1845,10 +1868,10 @@ opravu&amp;nbsp;dost.&lt;/p&gt;
 &lt;img src="images/2012-03-02-google-vi/chci_mit.jpg" alt=""&gt;
 &lt;img src="images/2012-03-02-google-vi/nechci_mit.jpg" alt=""&gt;
 &lt;p&gt;Nechcete mít děti? To je jednoduché, omezte styk s muži (případně s ženami),
-jak se radí v &lt;a href="http://www.csfd.cz/film/215339-zitra-nehrajeme/" class="reference external"&gt;Zítra nehrajeme!&lt;/a&gt;.&lt;/p&gt;
+jak se radí v &lt;a class="reference external" href="http://www.csfd.cz/film/215339-zitra-nehrajeme/"&gt;Zítra nehrajeme!&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A to, že nic nevíme, snad už nikoho nepřekapí.&lt;/p&gt;
 &lt;img src="images/2012-03-02-google-vi/vim.jpg" alt=""&gt;
-&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-google-vi-1"&gt;Měli jste na mysli… Ne neměli a neříkej mi, co jsem si myslel! &lt;a href="#sf-google-vi-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary></entry><entry><title>Jak Praktica k Nikonu přišla</title><link href="http://zapisnik.glor.cz/objektiv-z-practiky.html" rel="alternate"></link><updated>2012-03-01T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2012-03-01:objektiv-z-practiky.html</id><summary type="html">&lt;p&gt;V šuplíku mi ležela postarší Praktica spolu s objektivem a protože éra
+&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-google-vi-1"&gt;Měli jste na mysli… Ne neměli a neříkej mi, co jsem si myslel! &lt;a class="simple-footnote-back" href="#sf-google-vi-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary></entry><entry><title>Jak Praktica k Nikonu přišla</title><link href="http://zapisnik.glor.cz/objektiv-z-practiky.html" rel="alternate"></link><updated>2012-03-01T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2012-03-01:objektiv-z-practiky.html</id><summary type="html">&lt;p&gt;V šuplíku mi ležela postarší Praktica spolu s objektivem a protože éra
 klasického filmu je už jen pro fajnšmekry (vždyť i Kodak bankrotuje), hledal
 jsem pro objektiv nové&amp;nbsp;využití.&lt;/p&gt;
 &lt;p&gt;Ideální by bylo, kdyby se mi ho podařilo napasovat na tělo od Nikonu. Na první
@@ -3056,12 +3079,12 @@ vylezl z foťáku. Můžete si zkoumat &lt;span class="caps"&gt;EXIF&lt;/span&gt
 i nahrát na web, ale spadlo mi to na sto procentech, tak jsem toho nechal.&lt;/blockquote&gt;
 &lt;p&gt;Původně jsem měl v plánu pořídit si něco levnějšího, ale pak jsem si řekl, ať
 to stojí za to a začal jsem pokukovat po střední třídě. Nakonec mi sítem prošly
-pouze dva přístroje - &lt;a href="http://usa.canon.com/cusa/consumer/products/cameras/slr_cameras/eos_60d" class="reference external"&gt;Canon 60D&lt;/a&gt;
-a &lt;a href="http://imaging.nikon.com/lineup/dslr/d7000/" class="reference external"&gt;Nikon D7000&lt;/a&gt;.&lt;/p&gt;
+pouze dva přístroje - &lt;a class="reference external" href="http://usa.canon.com/cusa/consumer/products/cameras/slr_cameras/eos_60d"&gt;Canon 60D&lt;/a&gt;
+a &lt;a class="reference external" href="http://imaging.nikon.com/lineup/dslr/d7000/"&gt;Nikon D7000&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Po (ne)dlouhém váhání jsem se rozhodl pro Nikon. A to přesto, že jsem do té
 doby byl vyznáním canonista. Co mě k tomu vedlo? Po přečtení pár recenzí a
-srovnání (&lt;a href="http://blog.michaltrs.net/2011/03/jaky-vybrat-canon-60d-nebo-nikon-d7000.html" class="reference external"&gt;Mišákův blog&lt;/a&gt;,
-&lt;a href="http://www.digineff.cz/art/jakejeto/nikon_d7000_rec.html" class="reference external"&gt;Digineff&lt;/a&gt;) došel jsem
+srovnání (&lt;a class="reference external" href="http://blog.michaltrs.net/2011/03/jaky-vybrat-canon-60d-nebo-nikon-d7000.html"&gt;Mišákův blog&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.digineff.cz/art/jakejeto/nikon_d7000_rec.html"&gt;Digineff&lt;/a&gt;) došel jsem
 k těmto pro a proti.&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;Podle toho, co jsem si přečetl, je Nikon o něco lehčí a tělo působí odolněji. Výhoda pro Nikon.&lt;/li&gt;
@@ -3092,7 +3115,7 @@ levé ruky celkem zvykl.&lt;/p&gt;
 &lt;p&gt;Co se ale týče samotného focení - snadno jsem si na ten luxus zvykl. Ne že by
 se mi nikdy předtím nedostala zrcadlovka do ruky, ale pro člověka, který dosud
 fotil převážně s kompakty, je spousta věcí neuvěřitelných. Třeba jak rychle to
-fotí. Nebo jak z toho bolí ruka. A jaký to tvoří pěkný bokeh&lt;sup id="sf-nikon-d7000-1-back"&gt;&lt;a href="#sf-nikon-d7000-1" class="simple-footnote" title="Takové to pěkné rozostření pozadí"&gt;1&lt;/a&gt;&lt;/sup&gt;. Ne že by byl
+fotí. Nebo jak z toho bolí ruka. A jaký to tvoří pěkný bokeh&lt;sup id="sf-nikon-d7000-1-back"&gt;&lt;a title="Takové to pěkné rozostření pozadí" class="simple-footnote" href="#sf-nikon-d7000-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Ne že by byl
 nějaký kdovíjaký, ale přece jen s kompaktem nedocílíte vůbec žádného.&lt;/p&gt;
 &lt;img src="images/2011-05-03-nikon-d7000/KAL_0879.JPG" alt=""&gt;
 &lt;img src="images/2011-05-03-nikon-d7000/KAL_0586.JPG" alt=""&gt;
@@ -3103,7 +3126,7 @@ zatočit kolečkem. A pokud máte štěstí, dostanete i relativně dobře zaos
 dají se udržet i celkem dlouhé časy. Samozřejmě to není všemohoucí a vteřinu
 ani s tím nemáte šanci udržet.&lt;/p&gt;
 &lt;p&gt;Samotný objektiv se mi zdá celkem přiměřený ceně. Koupil jsem si k tomu všemu
-ještě &lt;a href="http://www.alfacomp.cz/php/product.php?eid=105140000000000DB7" class="reference external"&gt;polarizér&lt;/a&gt; a
+ještě &lt;a class="reference external" href="http://www.alfacomp.cz/php/product.php?eid=105140000000000DB7"&gt;polarizér&lt;/a&gt; a
 ten bohužel vinětuje jak prase. Byl nejlevnější, co naplat.&lt;/p&gt;
 &lt;img src="images/2011-05-03-nikon-d7000/KAL_0887.JPG" alt=""&gt;
 &lt;img src="images/2011-05-03-nikon-d7000/KAL_0888.JPG" alt=""&gt;
@@ -3116,7 +3139,7 @@ pouze o nastínění možností fotoaparátu.&lt;/p&gt;
 &lt;img src="images/2011-05-03-nikon-d7000/KAL_0913.JPG" alt=""&gt;
 &lt;p&gt;Celkové dojmy z foťáku? Očekávání splnil na výbornou.&lt;/p&gt;
 &lt;/div&gt;
-&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-nikon-d7000-1"&gt;Takové to pěkné rozostření pozadí &lt;a href="#sf-nikon-d7000-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="fotky"></category><category term="vybavení"></category></entry><entry><title>Velikonoce 2011: místy přísně střeženými</title><link href="http://zapisnik.glor.cz/velikonoce-2011.html" rel="alternate"></link><updated>2011-05-02T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-05-02:velikonoce-2011.html</id><summary type="html">&lt;p class="intro"&gt;Píše se rok 2011, zima, přes veškerá prvotní očekávání mírná, už za okny pomalu
+&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-nikon-d7000-1"&gt;Takové to pěkné rozostření pozadí &lt;a class="simple-footnote-back" href="#sf-nikon-d7000-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="fotky"></category><category term="vybavení"></category></entry><entry><title>Velikonoce 2011: místy přísně střeženými</title><link href="http://zapisnik.glor.cz/velikonoce-2011.html" rel="alternate"></link><updated>2011-05-02T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-05-02:velikonoce-2011.html</id><summary type="html">&lt;p class="intro"&gt;Píše se rok 2011, zima, přes veškerá prvotní očekávání mírná, už za okny pomalu
 mizí. My sedíme k večeru kolem stolů v bývalé hájovně na Zlaté Studně. Týden,
 který jsme tu trávili, se chýlí ke svému konci. Nám to ještě nedochází, asi
 tak jako trvá dlouho pochopit, že léto je pryč a přes podzim sem již nakukuje zima.&lt;/p&gt;
@@ -3272,7 +3295,7 @@ a nutně potřebovali opustit chatu.&lt;/p&gt;
 &lt;img src="images/2011-05-02-velikonoce-2011/putovani.jpg" alt=""&gt;
 &lt;p&gt;Nakonec jsme se všichni vypravili směrem na Suché studánky. To byl vytoužený
 Ondrův cíl, protože se tam kdesi v ruinách starého statku měla skrývat
-keška&lt;sup id="sf-velikonoce-2011-1-back"&gt;&lt;a href="#sf-velikonoce-2011-1" class="simple-footnote" title="Taková malá krabička. Sbírání kešek teď dost letí. Pro přesnost, správně je to geocaching."&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+keška&lt;sup id="sf-velikonoce-2011-1-back"&gt;&lt;a title="Taková malá krabička. Sbírání kešek teď dost letí. Pro přesnost, správně je to geocaching." class="simple-footnote" href="#sf-velikonoce-2011-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Vycházkovým krokem jsme se dostali až k rozcestí Na Suchých studánkách. Pěkné
 místo na kopci, vidí se z něj daleko. A hluboko pod kopcem ležely ony Suché studánky.
 Holkám se to pochopitelně sbíhat nechtělo a tak se samy vydaly směrem na hřebenovku
@@ -3322,7 +3345,7 @@ už nic nevím.&lt;/p&gt;
 &lt;p&gt;Velikonoce za námi. Vzpomínek, fotek, zážitků nadosmrti dost.&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol class="simple-footnotes"&gt;&lt;li id="sf-velikonoce-2011-1"&gt;Taková malá krabička. Sbírání kešek teď dost letí. Pro
-přesnost, správně je to geocaching. &lt;a href="#sf-velikonoce-2011-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Šumava"></category></entry><entry><title>Hádanky na entou</title><link href="http://zapisnik.glor.cz/hadanky-na-entou.html" rel="alternate"></link><updated>2011-05-01T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-05-01:hadanky-na-entou.html</id><summary type="html">&lt;p class="intro"&gt;Už dlouhý čas skladuji ve své hlavě i na disku svého počítače spoustu hádanek.
+přesnost, správně je to geocaching. &lt;a class="simple-footnote-back" href="#sf-velikonoce-2011-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Šumava"></category></entry><entry><title>Hádanky na entou</title><link href="http://zapisnik.glor.cz/hadanky-na-entou.html" rel="alternate"></link><updated>2011-05-01T00:00:00+02:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-05-01:hadanky-na-entou.html</id><summary type="html">&lt;p class="intro"&gt;Už dlouhý čas skladuji ve své hlavě i na disku svého počítače spoustu hádanek.
 Je to takový výběr toho, na co jsem kdy natrefil, co mi kdo kdy dal a tak
 všelijak podobně. A už před hodně dlouhou dobou jsem si napsal skript, který mi
 to převede do LaTeXu a uloží jako PDFko. A zrovna teď máte exkluzivní šanci
@@ -3385,7 +3408,7 @@ mi dost dobrý. První článek po takové době by měl stát za to, no ne?&lt
 &lt;h2&gt;Co se to stalo?&lt;/h2&gt;
 &lt;p&gt;Jestli se ptáte, co se to vlastně stalo, že jsem svojí blogerskou kariéru obnovil,
 tak vězte, že za tím stála shoda mnoha okolností. O znovu uvedení do činnosti jsem
-přemýšlel již delší dobu. Pokud se podíváte do &lt;a href="https://github.com/yetty/Blog/commits/master" class="reference external"&gt;historie mé práce&lt;/a&gt;
+přemýšlel již delší dobu. Pokud se podíváte do &lt;a class="reference external" href="https://github.com/yetty/Blog/commits/master"&gt;historie mé práce&lt;/a&gt;
 na samotném systému, zjistíte, že základní kameny byly položeny už před půl rokem.&lt;/p&gt;
 &lt;p&gt;Asi jsem tenkrát neměl do čeho píchnout a tak jsem začal práce na unikátním
 blogovacím systému. Jak se takový projekt vlastně vytváří? Stručný přehled postupu,
@@ -3399,7 +3422,7 @@ projekt do školy nebo si organizujete, co všechno musíte stihnout o prázdni
 &lt;li&gt;Nechte si záležet. Dodělávejte věci do úplného konce. Sice to málokdo docení, ale všem hnidopichům seberete mnoho šancí.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Co konkrétně znamenaly výše zmíněné moudra při tvorbě nového blogu? Jak už bylo zmíněno, je jednoduchý.
-Zcela jsem se vykašlal třeba na komentáře&lt;sup id="sf-a-je-to-tady-1-back"&gt;&lt;a href="#sf-a-je-to-tady-1" class="simple-footnote" title="Stejně jste mi jich moc nepsali a nepočítal jsem s tím, že by se něco v tomto směru změnilo :)"&gt;1&lt;/a&gt;&lt;/sup&gt;. Zato jsem zapracoval spoustu jiných fičurek.&lt;/p&gt;
+Zcela jsem se vykašlal třeba na komentáře&lt;sup id="sf-a-je-to-tady-1-back"&gt;&lt;a title="Stejně jste mi jich moc nepsali a nepočítal jsem s tím, že by se něco v tomto směru změnilo :)" class="simple-footnote" href="#sf-a-je-to-tady-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Zato jsem zapracoval spoustu jiných fičurek.&lt;/p&gt;
 &lt;p&gt;To by byl jeden důvod. Prostě už jsem měl připravené podklady, alespoň většinu.
 Pak tu bylo také výročí ukončení činnosti, které se nesmírně hodilo. A pak nakonec, proč ne?&lt;/p&gt;
 &lt;/div&gt;
@@ -3409,7 +3432,7 @@ Pak tu bylo také výročí ukončení činnosti, které se nesmírně hodilo. A
 &lt;h3&gt;Poznámky a reference&lt;/h3&gt;
 &lt;p&gt;Možná jste si již všimli, že za odkazy to hází jejich číslo, tu a tam se v textu vyskytuje nějaká poznámka
 a podobně. Tady jsem se nechal inspirovat rozšířením do Firefoxu -
-&lt;a href="https://addons.mozilla.org/en-us/firefox/addon/readability/" class="reference external"&gt;Readability&lt;/a&gt;.
+&lt;a class="reference external" href="https://addons.mozilla.org/en-us/firefox/addon/readability/"&gt;Readability&lt;/a&gt;.
 Poznámky pod čarou mám hodně rád, takže jsem částečně psal tuto vlastnost hlavně pro sebe.
 Vlastně jako vůbec skoro všechno.&lt;/p&gt;
 &lt;/div&gt;
@@ -3422,7 +3445,7 @@ obsah. Ten najdete nahoře v liště, která je vždy po ruce. Případně ho m�
 &lt;h3&gt;Hot keys&lt;/h3&gt;
 &lt;p&gt;Nemám příliš v lásce ovládání počítače myší, vůbec od hlodavců se držím dál,
 a tak veškeré ovládání přesouvám na klávesnici. Počítač pomocí
-&lt;a href="http://www.root.cz/clanky/ratpoison-jed-na-krysy/" class="reference external"&gt;Ratpoison&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.root.cz/clanky/ratpoison-jed-na-krysy/"&gt;Ratpoison&lt;/a&gt;,
 pro tyhle stránky jsem nastavil pár "žhavých" písmen a kláves. Mezi články
 se můžete pohybovat pomocí šipek - šipka doleva přejde na novější článek,
 šipka doprava na starší. Již zmíněný obsah vyvoláte písmenkem "o". Do archivu se
@@ -3433,7 +3456,7 @@ svého hlodavce.&lt;/p&gt;
 &lt;h3&gt;Matematika&lt;/h3&gt;
 &lt;p&gt;Sice to nemám v plánu, ale mohl by se tu časem objevit článek na nějaké matematické/programátorské
 téma. Zobrazit matematiku na webu není žádná sranda. Ale mně se to povedlo. Pomocí
-javascriptové knihovny &lt;a href="http://www.math.union.edu/~dpvc/jsMath/" class="reference external"&gt;jsMath&lt;/a&gt;.&lt;/p&gt;
+javascriptové knihovny &lt;a class="reference external" href="http://www.math.union.edu/~dpvc/jsMath/"&gt;jsMath&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;$$sum_{i=1}^{N} i = { N cdot (N+1) over 2 }$$&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id="tisk" class="section"&gt;
@@ -3448,7 +3471,7 @@ možná typografická pravidla (dovolovala-li to technologie). Nakonec si to mů
 &lt;h2&gt;Obsah? Nic extra.&lt;/h2&gt;
 &lt;p&gt;Nečekejte zázraky. Chvíli mi bude trvat, než si vůbec zase zvyknu psát. Nebude to
 jako to bývalo. Bude to něco trochu nového. Nedočkáte se žhavých pikantností z
-klatovského gymplu, &lt;span class="strike"&gt;s Tchoříky už také moc nepočítejte&lt;/span&gt; &lt;sup id="sf-a-je-to-tady-2-back"&gt;&lt;a href="#sf-a-je-to-tady-2" class="simple-footnote" title="Po letošní Zlaté studně jsem si to rozmyslel :)"&gt;2&lt;/a&gt;&lt;/sup&gt;. Zajímavostí bude,
+klatovského gymplu, &lt;span class="strike"&gt;s Tchoříky už také moc nepočítejte&lt;/span&gt; &lt;sup id="sf-a-je-to-tady-2-back"&gt;&lt;a title="Po letošní Zlaté studně jsem si to rozmyslel :)" class="simple-footnote" href="#sf-a-je-to-tady-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. Zajímavostí bude,
 že publikovat budu v obou směrech času. Budu se snažit přetáhnout sem většinu článků
 ze starého blogu - některé články už přetaženy byly, hlavně povídky. K těm starým bylo
 navíc přidáno pár nových, takže hned od začátku budete mít co číst. Většina z nich
@@ -3458,11 +3481,11 @@ je trochu slabších, ale snad si nějakou pěknou najdete.&lt;/p&gt;
 &lt;h2&gt;A jak teda vlastně vznikl název&lt;/h2&gt;
 &lt;p&gt;Pokud do této chvíle na původ názvu nikdo nepřišel, dám vám za odměnu, odměnu za to, že
 jste se dostali až sem, malou nápovědu, vlastně dvě. V názvu chybí malé diakritické znaménko.
-Druhou nápovědou je, že &lt;a href="http://www.glor.ie/" class="reference external"&gt;první výsledek&lt;/a&gt; v Google není úplně od věci.&lt;/p&gt;
+Druhou nápovědou je, že &lt;a class="reference external" href="http://www.glor.ie/"&gt;první výsledek&lt;/a&gt; v Google není úplně od věci.&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol class="simple-footnotes"&gt;&lt;li id="sf-a-je-to-tady-1"&gt;Stejně jste mi jich moc nepsali a nepočítal
-jsem s tím, že by se něco v tomto směru změnilo :) &lt;a href="#sf-a-je-to-tady-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-a-je-to-tady-2"&gt;Po letošní Zlaté studně jsem
-si to rozmyslel :) &lt;a href="#sf-a-je-to-tady-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary></entry><entry><title>Goldbrunn 2011 - po stopách pašeráka</title><link href="http://zapisnik.glor.cz/po-stopach-paseraka.html" rel="alternate"></link><updated>2011-03-03T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-03-03:po-stopach-paseraka.html</id><summary type="html">&lt;p class="intro"&gt;Opravdu se omlouvám za to, že je to takové obsáhlé, zdlouhavé a nudné. Prostě jsem
+jsem s tím, že by se něco v tomto směru změnilo :) &lt;a class="simple-footnote-back" href="#sf-a-je-to-tady-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-a-je-to-tady-2"&gt;Po letošní Zlaté studně jsem
+si to rozmyslel :) &lt;a class="simple-footnote-back" href="#sf-a-je-to-tady-2-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary></entry><entry><title>Goldbrunn 2011 - po stopách pašeráka</title><link href="http://zapisnik.glor.cz/po-stopach-paseraka.html" rel="alternate"></link><updated>2011-03-03T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-03-03:po-stopach-paseraka.html</id><summary type="html">&lt;p class="intro"&gt;Opravdu se omlouvám za to, že je to takové obsáhlé, zdlouhavé a nudné. Prostě jsem
 psal a psal a psal. A těch věcí se opravdu stalo strašlivě moc. Dost jich muselo
 být vynecháno.&lt;/p&gt;
 &lt;p&gt;S nepříliš vychladlou hlavou plnou emocí, dojmů a pohnutek, jak to tak
@@ -3489,14 +3512,14 @@ stavili na jedné křižovatce a nabrali Kryštofa.&lt;/p&gt;
 &lt;p&gt;Bez jakýchkoliv problémů jsme dorazili na dané parkoviště. Vylezli jsme z aut a
 postávali na sluníčku. Libovali jsme si, že jsme na parkovišti dokonce na čas
 přesně (ano, to není pravidlem). Kluci (Ondra a Vojta Novotných spolu s Vítkem)
-se váleli ve sněhu, my je pozorovali pohledem starých a moudrých&lt;sup id="sf-po-stopach-paseraka-1-back"&gt;&lt;a href="#sf-po-stopach-paseraka-1" class="simple-footnote" title="Ani jedno není úplná pravda, ale tvářili jsme se tak."&gt;1&lt;/a&gt;&lt;/sup&gt;] a čekali.&lt;/p&gt;
+se váleli ve sněhu, my je pozorovali pohledem starých a moudrých&lt;sup id="sf-po-stopach-paseraka-1-back"&gt;&lt;a title="Ani jedno není úplná pravda, ale tvářili jsme se tak." class="simple-footnote" href="#sf-po-stopach-paseraka-1"&gt;1&lt;/a&gt;&lt;/sup&gt;] a čekali.&lt;/p&gt;
 &lt;p&gt;Čekali jsme nezvykle dlouho. Dokonce jsme si začali říkat, jestli jsme tu vůbec
 dobře. Jenda nikde, nikdo jiný taky ne. Ujo to totiž bral s mezi-zastávkou a nabral menší zpoždění.
 Když dorazil a s ním i Jáňa, začali jsme se chystat na konečný přesun k Zlaté
 Studni. Moc se nás tedy na parkovišti nesešlo - Jenda, Kryštof, Jáňa, Klára, Ondra,
 Vojta, Vítek a já. Od Horské Kvildy ale měly přijet další holky - Bětka s
 Markétou. Áňa a Sváťa byly na závodech - to byla ona Jendova zastávka a k
-podrobnostem jejich přesunu na &lt;span class="caps"&gt;ZS&lt;/span&gt;&lt;sup id="sf-po-stopach-paseraka-2-back"&gt;&lt;a href="#sf-po-stopach-paseraka-2" class="simple-footnote" title="Zlatá Studna, jak jinak. Jsem líný to psát celé, tak si to budu takhle zkracovat."&gt;2&lt;/a&gt;&lt;/sup&gt; se ještě dostaneme.
+podrobnostem jejich přesunu na &lt;span class="caps"&gt;ZS&lt;/span&gt;&lt;sup id="sf-po-stopach-paseraka-2-back"&gt;&lt;a title="Zlatá Studna, jak jinak. Jsem líný to psát celé, tak si to budu takhle zkracovat." class="simple-footnote" href="#sf-po-stopach-paseraka-2"&gt;2&lt;/a&gt;&lt;/sup&gt; se ještě dostaneme.
 Odpoledne ještě přibyla Zuzka a tím se celkový počet ustálil na krásných třinácti
 osobách. Mělo nás být o něco málo víc, ale řádily chřipky a virózy.&lt;/p&gt;
 &lt;p&gt;Trochu problém nastal s dopravou jídla. Protože jak bylo řečeno na parkovišti nás
@@ -3536,7 +3559,7 @@ družstev, jednalo se vlastně hlavně o vařicí party - Pašeráků, Převaďe
 Večer se četlo o králi Šumavy - Kiliánovi Nowotném, pašerákovi a převaděčovi z dob
 minulého režimu. Protože se jedná o zajímavou historii, nebudu vás ochuzovat vlastním
 převyprávěním, ale odkáži vás přímo na
-&lt;a href="http://www.moskyt.net/view.php?cisloclanku=2006100001" class="reference external"&gt;originální článek&lt;/a&gt;.
+&lt;a class="reference external" href="http://www.moskyt.net/view.php?cisloclanku=2006100001"&gt;originální článek&lt;/a&gt;.
 V dalším vyprávění budu často odkazovat na nějaká místa související s tímto tématem,
 pokud vám tedy bude nějaký pojem nebo místo neznámé, je možné, že ho naleznete tam.&lt;/p&gt;
 &lt;/div&gt;
@@ -3582,7 +3605,7 @@ Kvildu a pak se nám vydal naproti.&lt;/p&gt;
 &lt;p&gt;Od toho večera jsme tedy na chatě byli již všichni. Nevím, proč, ale nemůžu si dost
 dobře vzpomenout na jednotlivé večery a tak doufám, že to moc nepomotám. Mám za to,
 že druhý večer četl Jenda pokračování příběhu o králi Šumavy. Opět raději odkáži na
-&lt;a href="http://www.moskyt.net/view.php?cisloclanku=2008100003" class="reference external"&gt;originální článek, tentokrát o trochu smutnější události&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="http://www.moskyt.net/view.php?cisloclanku=2008100003"&gt;originální článek, tentokrát o trochu smutnější události&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;V pondělí jsme se vydali hledat trosky Pöslova domu. Měly být kdesi v místech, přes
 které jsme den před tím projeli, když jsme se vraceli zpět domů. Takže nás opět čekala
 cesta do neprostupné kleče. Ale většina z nás (možná všichni) si takovéhle prodírání
@@ -3593,7 +3616,7 @@ zahráli jsme si kousek odtud pár her. Ukazovalo se na sever (nepoměrně přes
 loni na Zaječím Skoku) a házelo se oštěpem. A také se běžel závod o večerní nádobí.&lt;/p&gt;
 &lt;p&gt;Byla asi hodina před polednem a my byli na oběd pozváni k malým dětičkám na Horskou
 Kvildu. A tak nás Jenda poslal po týmech samotné, ať si zkusíme
-&lt;span class="caps"&gt;HK&lt;/span&gt;&lt;sup id="sf-po-stopach-paseraka-3-back"&gt;&lt;a href="#sf-po-stopach-paseraka-3" class="simple-footnote" title="Další zkratka - HK pro Horskou Kvildu."&gt;3&lt;/a&gt;&lt;/sup&gt; najít sami.&lt;/p&gt;
+&lt;span class="caps"&gt;HK&lt;/span&gt;&lt;sup id="sf-po-stopach-paseraka-3-back"&gt;&lt;a title="Další zkratka - HK pro Horskou Kvildu." class="simple-footnote" href="#sf-po-stopach-paseraka-3"&gt;3&lt;/a&gt;&lt;/sup&gt; najít sami.&lt;/p&gt;
 &lt;img src="images/2011-03-03-po-stopach-paseraka/kluci.jpg" alt=""&gt;
 &lt;p&gt;Jak se dalo očekávat, všem se to podařilo zvládnout bez problému, však to byl kousek
 a v známých krajích, známým směrem. A tak jsme se na chatě u Musila dočkali polévky
@@ -3615,7 +3638,7 @@ k vázání, ale těch bylo málo…&lt;/p&gt;
 &lt;h2&gt;Memoriál Michala Nováka&lt;/h2&gt;
 &lt;p&gt;A protože bylo ještě odpoledne, slunce krásně svítilo a my přece nemohli jen tak zůstat sedět
 v chatě, vyběhli jsme před ní a začali dupat přes lyžařské stopy a hrát nejrůznější hry. První
-byla inspirována vyprávěnými příběhy - tým &lt;span class="caps"&gt;PPS&lt;/span&gt;&lt;sup id="sf-po-stopach-paseraka-4-back"&gt;&lt;a href="#sf-po-stopach-paseraka-4" class="simple-footnote" title="Pomocné pohraniční stráže - jednotky, které za komunistů pomáhali dobrovolně, z nadšení, hlídat státní hranice před vnějšími vlivy."&gt;4&lt;/a&gt;&lt;/sup&gt; měl za úkol ohlídat jisté území a druhý tým pašeráků a převaděčů
+byla inspirována vyprávěnými příběhy - tým &lt;span class="caps"&gt;PPS&lt;/span&gt;&lt;sup id="sf-po-stopach-paseraka-4-back"&gt;&lt;a title="Pomocné pohraniční stráže - jednotky, které za komunistů pomáhali dobrovolně, z nadšení, hlídat státní hranice před vnějšími vlivy." class="simple-footnote" href="#sf-po-stopach-paseraka-4"&gt;4&lt;/a&gt;&lt;/sup&gt; měl za úkol ohlídat jisté území a druhý tým pašeráků a převaděčů
 se jednak musel dostat přes toto území a hlavně přenést americkou vysílačku.&lt;/p&gt;
 &lt;p&gt;Hráli jsme dvakrát a pak se vrhli na trochu akčnější hru - žhavou uličku, běh smrti,
 jatka. Jak chcete. Od chaty dolů z kopce vede krásná cesta prostředkem lesíka, do
@@ -3692,7 +3715,7 @@ nemohli vydat nikam daleko.&lt;/p&gt;
 &lt;p&gt;Pro malé jsme měli přichystaný "skvělý" zlatostudniční puding. V původním plánu bylo,
 že pro děti uděláme normální puding, slaďoučký jak med. Takový aby děti slintaly
 blahem, až ho budou jíst. A pro vedoucí ten pravý puding. S dostatkem soli, jak se
-na Zlatou studnu patří&lt;sup id="sf-po-stopach-paseraka-5-back"&gt;&lt;a href="#sf-po-stopach-paseraka-5" class="simple-footnote" title="To se vztahuje k tříleté historii, kdy jsme byli na ZS poprvé. Tenkrát jsme se zrovna vrátili z šíleně dlouhého výletu. K večeři měl být puding, ale jakýmsi nedopatřením se namísto cukru dostala do pudingu sůl. Nedovedete si představit, co kilo soli s pudingem udělá. A to měl každý jeden hrníček povinně…"&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+na Zlatou studnu patří&lt;sup id="sf-po-stopach-paseraka-5-back"&gt;&lt;a title="To se vztahuje k tříleté historii, kdy jsme byli na ZS poprvé. Tenkrát jsme se zrovna vrátili z šíleně dlouhého výletu. K večeři měl být puding, ale jakýmsi nedopatřením se namísto cukru dostala do pudingu sůl. Nedovedete si představit, co kilo soli s pudingem udělá. A to měl každý jeden hrníček povinně…" class="simple-footnote" href="#sf-po-stopach-paseraka-5"&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Aby puding neměli jen tak zadarmo, po snídani jsme začali kreslit poukázky na puding,
 které se později poschovávali v lese. Pár z nich bylo opravdu uměleckými díly,
 třeba Jánina "Vstupenka do cirkusu".&lt;/p&gt;
@@ -3723,7 +3746,7 @@ jsme se tomu moc nedivili.&lt;/p&gt;
 hru, ale postupem času se to změnilo na valnou hromadu s míčem někde dole. Přece jen
 když na vás naskáče dvacet děcek, moc šancí nemáte. Memoriál Kryštofa Mejstříka jsme
 tak neslavně prohráli tři ku jedné. Ale ani nás to moc nemrzelo, protože prohrát v
-nerovném souboji není ostuda, že&lt;sup id="sf-po-stopach-paseraka-6-back"&gt;&lt;a href="#sf-po-stopach-paseraka-6" class="simple-footnote" title="No tak dobře, chvilku jsme možná trochu naštvaní byli, ale opravdu jen chvilku :)"&gt;6&lt;/a&gt;&lt;/sup&gt;?&lt;/p&gt;
+nerovném souboji není ostuda, že&lt;sup id="sf-po-stopach-paseraka-6-back"&gt;&lt;a title="No tak dobře, chvilku jsme možná trochu naštvaní byli, ale opravdu jen chvilku :)" class="simple-footnote" href="#sf-po-stopach-paseraka-6"&gt;6&lt;/a&gt;&lt;/sup&gt;?&lt;/p&gt;
 &lt;img src="images/2011-03-03-po-stopach-paseraka/vydra.jpg" alt=""&gt;
 &lt;p&gt;Večer se nesl v duchu více či méně praštěných her. Já jim říkal "stresové" a ze začátku
 se mi do nich moc nechtělo. Zvlášť když jsem viděl ostatní, jak sedí dokola na židlích a
@@ -3829,15 +3852,15 @@ obvykle. Protože čím lepší věci se dějí, tím čas rychleji utíká. Tak
 už to prostě je. Ale za měsíc jsou Velikonoce, není nač zoufat.&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol class="simple-footnotes"&gt;&lt;li id="sf-po-stopach-paseraka-1"&gt;Ani
-jedno není úplná pravda, ale tvářili jsme se tak. &lt;a href="#sf-po-stopach-paseraka-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-2"&gt;Zlatá Studna, jak jinak. Jsem
-líný to psát celé, tak si to budu takhle zkracovat. &lt;a href="#sf-po-stopach-paseraka-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-3"&gt;Další zkratka - &lt;span class="caps"&gt;HK&lt;/span&gt; pro Horskou Kvildu. &lt;a href="#sf-po-stopach-paseraka-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-4"&gt;Pomocné pohraniční
+jedno není úplná pravda, ale tvářili jsme se tak. &lt;a class="simple-footnote-back" href="#sf-po-stopach-paseraka-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-2"&gt;Zlatá Studna, jak jinak. Jsem
+líný to psát celé, tak si to budu takhle zkracovat. &lt;a class="simple-footnote-back" href="#sf-po-stopach-paseraka-2-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-3"&gt;Další zkratka - &lt;span class="caps"&gt;HK&lt;/span&gt; pro Horskou Kvildu. &lt;a class="simple-footnote-back" href="#sf-po-stopach-paseraka-3-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-4"&gt;Pomocné pohraniční
 stráže - jednotky, které za komunistů pomáhali dobrovolně, z nadšení, hlídat státní hranice
-před vnějšími vlivy. &lt;a href="#sf-po-stopach-paseraka-4-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-5"&gt;To se vztahuje k tříleté historii,
+před vnějšími vlivy. &lt;a class="simple-footnote-back" href="#sf-po-stopach-paseraka-4-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-5"&gt;To se vztahuje k tříleté historii,
 kdy jsme byli na &lt;span class="caps"&gt;ZS&lt;/span&gt; poprvé. Tenkrát jsme se zrovna vrátili z šíleně dlouhého výletu.
 K večeři měl být puding, ale jakýmsi nedopatřením se namísto cukru dostala do pudingu
 sůl. Nedovedete si představit, co kilo soli s pudingem udělá. A to měl každý jeden
-hrníček povinně… &lt;a href="#sf-po-stopach-paseraka-5-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-6"&gt;No tak dobře, chvilku jsme
-možná trochu naštvaní byli, ale opravdu jen chvilku :) &lt;a href="#sf-po-stopach-paseraka-6-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Šumava"></category></entry><entry><title>Reportáž z MatFyzu</title><link href="http://zapisnik.glor.cz/jeden-den-fyzikou-i.html" rel="alternate"></link><updated>2011-02-20T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-02-20:jeden-den-fyzikou-i.html</id><summary type="html">&lt;p class="intro"&gt;Jak známo &amp;quot;matfyzáka&amp;quot; od obyčejného člověka poznáte snadno a pokud se budete
+hrníček povinně… &lt;a class="simple-footnote-back" href="#sf-po-stopach-paseraka-5-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-po-stopach-paseraka-6"&gt;No tak dobře, chvilku jsme
+možná trochu naštvaní byli, ale opravdu jen chvilku :) &lt;a class="simple-footnote-back" href="#sf-po-stopach-paseraka-6-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Šumava"></category></entry><entry><title>Reportáž z MatFyzu</title><link href="http://zapisnik.glor.cz/jeden-den-fyzikou-i.html" rel="alternate"></link><updated>2011-02-20T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2011-02-20:jeden-den-fyzikou-i.html</id><summary type="html">&lt;p class="intro"&gt;Jak známo &amp;quot;matfyzáka&amp;quot; od obyčejného člověka poznáte snadno a pokud se budete
 řídit intuicí, nemáte šanci k omylu. Splésti si ho můžete snad jenom s
 chemikem. A výlet na matematicko-fyzikální fakultu je proto zážitkem podobné
 intenzity třeba jako návštěva&amp;nbsp;zoo.&lt;/p&gt;
@@ -4300,10 +4323,10 @@ nám zdvihá vítr. Možná se ještě zatáhne a začne sněžit. Lidé zalezou
 svých domovů. Ve městě na chvíli zavládne klid a ticho, nikoho neuvidíš nikam
 pospíchat. A to ti povím, jednou z mých největších radostí je, procházet se pak
 v šeru večera. Uprostřed pomalu se snášejících vloček. Tichými uličkami. A
-pozorovat to, co tak snadno jako v Klatovech jinde nespatříš.&lt;sup id="sf-pohled-z-cerne-veze-1-back"&gt;&lt;a href="#sf-pohled-z-cerne-veze-1" class="simple-footnote" title="…ale jo, spatříte. Tenhle konec jsem trochu přehnal s vědomím toho, že je to povinná slohovka. Takže to neberte jako můj osobní názor, v Klatovech se nestuduje blaze."&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+pozorovat to, co tak snadno jako v Klatovech jinde nespatříš.&lt;sup id="sf-pohled-z-cerne-veze-1-back"&gt;&lt;a title="…ale jo, spatříte. Tenhle konec jsem trochu přehnal s vědomím toho, že je to povinná slohovka. Takže to neberte jako můj osobní názor, v Klatovech se nestuduje blaze." class="simple-footnote" href="#sf-pohled-z-cerne-veze-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ol class="simple-footnotes"&gt;&lt;li id="sf-pohled-z-cerne-veze-1"&gt;…ale jo,
 spatříte. Tenhle konec jsem trochu přehnal s vědomím toho, že je to
-povinná slohovka. Takže to neberte jako můj osobní názor, v Klatovech se nestuduje blaze. &lt;a href="#sf-pohled-z-cerne-veze-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="povídky"></category><category term="gympl"></category><category term="Klatovy"></category><category term="Šumava"></category></entry><entry><title>Stařík</title><link href="http://zapisnik.glor.cz/starik.html" rel="alternate"></link><updated>2009-12-05T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2009-12-05:starik.html</id><summary type="html">&lt;p&gt;V klidném zimním dni se nedaleko všeho ruchu a shonu snášely pomalu sněhové
+povinná slohovka. Takže to neberte jako můj osobní názor, v Klatovech se nestuduje blaze. &lt;a class="simple-footnote-back" href="#sf-pohled-z-cerne-veze-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="povídky"></category><category term="gympl"></category><category term="Klatovy"></category><category term="Šumava"></category></entry><entry><title>Stařík</title><link href="http://zapisnik.glor.cz/starik.html" rel="alternate"></link><updated>2009-12-05T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2009-12-05:starik.html</id><summary type="html">&lt;p&gt;V klidném zimním dni se nedaleko všeho ruchu a shonu snášely pomalu sněhové
 vločky. Na cestičkách městského parku ležela tenká vrstvička bílého sněhu,
 která se pár metrů odtud měnila na šedivou břečku pod koly&amp;nbsp;aut.&lt;/p&gt;
 &lt;p&gt;Tu a tam někdo parčíkem prošel – klidně a tiše jím prošla žena tlačící kočárek.
@@ -4507,7 +4530,7 @@ tu asi znali a dostali se k nám v pořádku.&lt;/p&gt;
 &lt;p&gt;Přijelo jich tuším jedenáct, nejsem si už úplně jistý, malý šéf to tam
 organizoval, všichni kolem Jendy skákali a my jenom pozorovali jak jim to jde.
 Za chvíli už byli zpátky na lyžích a Jenda v sáních. Jak to pokračovalo jsme se
-dozvěděli až za pár dní, když jsme jeli nakoupit do &lt;span class="caps"&gt;JD&lt;/span&gt;&lt;sup id="sf-jizerky-2009-1-back"&gt;&lt;a href="#sf-jizerky-2009-1" class="simple-footnote" title="Zkratka pro Josefův Důl"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+dozvěděli až za pár dní, když jsme jeli nakoupit do &lt;span class="caps"&gt;JD&lt;/span&gt;&lt;sup id="sf-jizerky-2009-1-back"&gt;&lt;a title="Zkratka pro Josefův Důl" class="simple-footnote" href="#sf-jizerky-2009-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Jendu převezli až do nemocnice. Kus cesty urazil v sáních za skútrem, část v
 sanitce. V nemocnici ho ale moc s radostí nevítali. Jakási mladá doktorka
 totiž nemytého smradlavého chlapa správně neocenila a po tom co ho různě
@@ -4557,7 +4580,7 @@ polského pohostinství jsme si pochutnali. Však jsme taky byli zvyklí na hodn
 Večer na chatě už jsme měli hlad jenom Michal, Kyšák a já a tak jsme se
 dorazili pytlíkem těstovin, společně s ostatními si připili vínem, které měl
 kdosi dostat k Vánocům a začali plánovat Velikonoce…&lt;/p&gt;
-&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-jizerky-2009-1"&gt;Zkratka pro Josefův Důl &lt;a href="#sf-jizerky-2009-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Jizerky"></category></entry><entry><title>Jaké bylo Bludiště V. - videozáznam</title><link href="http://zapisnik.glor.cz/jake-bylo-bludiste-v.html" rel="alternate"></link><updated>2009-02-28T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2009-02-28:jake-bylo-bludiste-v.html</id><summary type="html">&lt;p&gt;Všechny tři díly jsou dostupné přímo v &lt;a class="reference external" href="http://www.ceskatelevize.cz/ivysilani-jako-driv/409234100011013-bludiste/"&gt;archivu
+&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-jizerky-2009-1"&gt;Zkratka pro Josefův Důl &lt;a class="simple-footnote-back" href="#sf-jizerky-2009-1-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="Tchoříci"></category><category term="Jizerky"></category></entry><entry><title>Jaké bylo Bludiště V. - videozáznam</title><link href="http://zapisnik.glor.cz/jake-bylo-bludiste-v.html" rel="alternate"></link><updated>2009-02-28T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2009-02-28:jake-bylo-bludiste-v.html</id><summary type="html">&lt;p&gt;Všechny tři díly jsou dostupné přímo v &lt;a class="reference external" href="http://www.ceskatelevize.cz/ivysilani-jako-driv/409234100011013-bludiste/"&gt;archivu
 ČT&lt;/a&gt;.
 Protože ale ČT je moloch zbrzděný, přehrávání videa není na všech prohlížečích
 úplně intuitivní a příjemné. Z tohoto důvodu si je můžete pustit i z&amp;nbsp;YouTube.&lt;/p&gt;
@@ -5035,7 +5058,9 @@ identifikovat, doklady u sebe mají a jestli je bude někdo živý postrádat, p
 není co&amp;nbsp;řešit.“&lt;/p&gt;
 &lt;p&gt;Podíval se z okna, ve kterém chybělo sklo, ven na policejní vůz s blikajícím&amp;nbsp;majáčkem.&lt;/p&gt;
 &lt;p&gt;„Zabít dva lidi a svou manželku. Proč to ten pán Černý, k sakru,&amp;nbsp;dělal?“&lt;/p&gt;
-</summary><category term="povídky"></category></entry><entry><title>Výletník</title><link href="http://zapisnik.glor.cz/vyletnik.html" rel="alternate"></link><updated>2008-11-28T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2008-11-28:vyletnik.html</id><summary type="html">&lt;p&gt;Už mi zbývalo objet jen posledních pár chalup. Dvakrát do týdne jsem s dopisy,
+</summary><category term="povídky"></category></entry><entry><title>Výletník</title><link href="http://zapisnik.glor.cz/vyletnik.html" rel="alternate"></link><updated>2008-11-28T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2008-11-28:vyletnik.html</id><summary type="html">&lt;p class="intro"&gt;Takhle to dopadá, když rodinu popadne tvořivá chvilka a začne se vymýšlet.
+To se toho pak jedinec s psavými sklony chytne a výsledek je&amp;nbsp;všelijaký.&lt;/p&gt;
+&lt;p&gt;Už mi zbývalo objet jen posledních pár chalup. Dvakrát do týdne jsem s dopisy,
 balíky, důchody i jinými věci, které lidé posílají poštou musel zajet k
 samotám, poschovávaných různě po okolních kopcích. Většinou tam bydleli starší
 lidé – žili tu celý život, neměli proč, by měli žít jinde. I když jsem byl sám

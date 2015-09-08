@@ -5,8 +5,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/index.html</loc>
-<lastmod>2015-08-18T10:46:39-00:00</lastmod>
+<lastmod>2015-09-08T18:37:47-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/latex-tip-6.html</loc>
+<lastmod>2015-09-08T00:00:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -732,15 +739,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://zapisnik.glor.cz/kategorie/basne.html</loc>
+<lastmod>2015-06-30T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/kategorie/cestovani.html</loc>
+<lastmod>2014-05-05T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://zapisnik.glor.cz/kategorie/clanek.html</loc>
-<lastmod>2015-07-31T00:00:00+00:58</lastmod>
+<lastmod>2013-06-27T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/latex-tipy-a-triky.html</loc>
-<lastmod>2015-05-27T00:00:00+00:58</lastmod>
+<lastmod>2015-09-08T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/kategorie/povidky.html</loc>
+<lastmod>2015-07-31T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -887,7 +915,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/latex.html</loc>
-<lastmod>2015-05-27T00:00:00+00:58</lastmod>
+<lastmod>2015-09-08T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -895,6 +923,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/povidky.html</loc>
 <lastmod>2015-07-31T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/nalepka/hudba.html</loc>
+<lastmod>2014-07-02T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -943,7 +978,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/autor/juda-kaleta.html</loc>
-<lastmod>2015-07-31T00:00:00+00:58</lastmod>
+<lastmod>2015-09-08T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
