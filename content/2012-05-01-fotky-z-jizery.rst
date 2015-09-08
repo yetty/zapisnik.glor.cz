@@ -3,6 +3,7 @@ Z Jizery
 
 :tags: Tchoříci, Jizerky, fotky
 :slug: fotky-z-jizery
+:category: Cestování
 
 .. class:: intro
 

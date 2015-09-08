@@ -1,0 +1,37 @@
+LaTeX a dějepis, tip #6 — sledujeme změny
+=========================================
+
+:tags: latex
+:category: Latex - tipy a triky
+
+.. role:: strike
+    :class: strike
+
+.. class:: intro
+
+Že v LaTeXu sázejí matematici, fyzici, ajťáci a další verbež není zas tak překvapivé. A kdyby to s ním nebylo tak složité, možná by leccos nabídl i pro nás humanitně zaměřené. Tak si pojďme ukázat, že to zas tak složité není a že se spousta problémů, kvůli kterým si trháme vlasy, dá řešit elegantně.
+
+
+Tip #6 - sledujeme změny
+------------------------
+
+Rozhodli jste se psát svou práci v Latexu a teď před sebou máte neřešitelný problém — váš vedoucí si stěžuje, že nevidí, co jste změnili oproti předchozí verzi a proč že to vlastně nemůžete psát ve Wordu, že tam to jde jednoduše. 
+
+K porovnávání dvou verzí TeX dokumentů slouží nástroj jménem `latexdiff <http://ftp.cvut.cz/tex-archive/support/latexdiff/doc/latexdiff-man.pdf>`_. :strike:`Nejpohodlnějši je samozřejmě rozběhat si ho na vlastním počítači, ale pokud jste se pořád k lokální instalaci LaTeXu nerozhoupali a vytváříte práci online, nemusíte si zoufat. Jde to také díky stránce 3142.nl.` [ref]Ukázalo se, že odkazovaná stránka již bohužel nefunguje. Nezbývá tedy nic jiného, než latexdiff nainstalovat k sobě do počítače.[/ref] Tento nástroj se nachází již ve výchozí instalaci LaTeXu. Pokud ho tedy máte funkční, měli byste mít přístup i k němu. 
+
+Jak na to? Prvním důležitým krokem je vždy si **uložit dokument v předcházející verzi**. Server `overleaf.com <https://www.overleaf.com/>`_ nabízí označovat si jednotlivé verze štítky, jde asi o nejjednodušší rešení. Druhým možným způsobem je si dokument vždy po odeslání uložit ve vlastním počítači. Existují samozřejmě i další možnosti, jak práci verzovat. Odvážnějším a počítačově zdatnějším vřele doporučuji `git <https://desktop.github.com/>`_.
+
+Máme tedy starší `verzi dokumentu <https://www.overleaf.com/read/dgfdxthzbjfp>`_ (označíme si ji jako *verze A*), ve které `provedeme změny <https://www.overleaf.com/read/yxykwfywhtzy>`_ (*verze B*). Nyní chceme vygenerovat PDF, které by tyto změny zobrazilo. 
+
+Příkaz, i s mými oblíbenými parametry, je takovýto:
+
+.. code::
+
+    latexdiff -e utf8 -t CTRADITIONAL a.tex b.tex > c.tex
+
+Parametr ``-e`` se stará o správné zpracování českých (a dalších obskurních) znaků. Druhý parametr ``-t`` nastavuje způsob zobrazení změn. Jaké jsou možnosti a jak se liší je popsáno v `anglickém manuálu <http://ftp.cvut.cz/tex-archive/support/latexdiff/doc/latexdiff-man.pdf>`_.
+
+Jak vypadá `výsledek, se můžete podívat zde <https://www.overleaf.com/read/myfrksrxgxvc>`_.
+
+.. image:: https://farm6.staticflickr.com/5704/21244770855_e1b88c4d23_o.jpg
+    :alt: Výsledné vygenerované PDF

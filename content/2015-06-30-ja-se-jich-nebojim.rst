@@ -2,6 +2,7 @@ Já se jich nebojím
 ==================
 
 :tags: básně, doporučuji
+:category: Básně
 
 |
 | Já se jich nebojím.

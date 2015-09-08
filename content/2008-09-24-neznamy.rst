@@ -2,6 +2,7 @@ Neznámý
 #######
 
 :tags: povídky
+:category: Povídky
 
 Byl jsem tehdy v nejlepších letech. Síly bylo dost na každou práci, člověk mě
 ještě nebolel, ale stáří se neúprosně blížilo. Život zde, v tvrdých lesích mi

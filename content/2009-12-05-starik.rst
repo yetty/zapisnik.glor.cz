@@ -2,6 +2,7 @@ Stařík
 ######
 
 :tags: povídky
+:category: Povídky
 
 V klidném zimním dni se nedaleko všeho ruchu a shonu snášely pomalu sněhové
 vločky. Na cestičkách městského parku ležela tenká vrstvička bílého sněhu,

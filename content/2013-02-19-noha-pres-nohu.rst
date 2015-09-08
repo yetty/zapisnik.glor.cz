@@ -2,6 +2,7 @@ Noha přes nohu
 ##############
 
 :tags: povídky
+:category: Povídky
 
 V docela malé čekárně na autobusovém nádraží, kterou ještě nedávno zdobily
 fresky spokojeně se usmívajících dělníků a jiných soudruhů, bylo nezvyklé

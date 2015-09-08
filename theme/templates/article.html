@@ -3,8 +3,11 @@
 {% block title %}{{ article.title }}{% endblock %}
 
 {% block content %}
-  <h1>{{ article.title }}</h1>
-  <span class="date">{{ article.date.strftime("%Y/%m/%d") }}</span>, <a href="{{ SITEURL }}">&#10154;</a>
+  <h1 class="article-{{ article.status }}">{{ article.title }}</h1>
+  <span class="date">
+    {{ article.date.strftime("%Y/%m/%d") }},
+    <a href="{{ SITEURL }}" title="Přejít na seznam článků">&#10154;</a>
+  </span>
   <div class="article">
     {{ article.content }}
   </div>
@@ -35,7 +38,8 @@
 
   {% if article.related_posts %}
     <h2>Další podobné články: </h2>
-    <p>
+    <p> 
+      <a href="{{ SITEURL}}/{{ category.url }}">kategorie „{{ category }}“</a>, 
       {% for related_post in article.related_posts %}
         <a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a>{% if not loop.last %}, {% endif %}
       {% endfor %}

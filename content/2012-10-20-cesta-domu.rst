@@ -2,6 +2,7 @@ Cesta domů
 ##########
 
 :tags: povídky, doporučuji
+:category: Povídky
 
 Za okny se jak ve zrychleném filmu míhala pole, domy, louky, vesnice. Vlak
 hlasitě rachotil po kolejích a jako starý udýchaný muž se blížil ke svému

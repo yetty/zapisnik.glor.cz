@@ -2,6 +2,7 @@ Povídka z údolí
 =================
 
 :tags: povídky, doporučuji
+:category: Povídky
 
 .. class:: intro
 

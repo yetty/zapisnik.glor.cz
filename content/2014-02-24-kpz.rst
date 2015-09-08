@@ -2,6 +2,7 @@ Obsah mé KPZ
 ############
 
 :tags: vybavení
+:category: Cestování
 
 .. class:: intro
 

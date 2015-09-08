@@ -1,6 +1,9 @@
 Hey Mr. Tambourine Man
 ======================
 
+:tags: povídky, hudba
+:category: Povídky
+
 .. class:: intro
 
 Věnováno Bobu Dylanovi. 

@@ -2,6 +2,7 @@ Příběh stromu
 #############
 
 :tags: povídky, gympl
+:category: Povídky
 
 .. class:: intro
 

@@ -2,6 +2,7 @@
 #############
 
 :tags: povídky
+:category: Povídky
 
 „K nástupišti číslo tři kolej pátá přijede spěšný vlak ve směru...“
 

@@ -2,6 +2,7 @@ Krávy
 #####
 
 :tags: povídky
+:category: Povídky
 
 Seděl jsem na patníku při kraji silnice. Slunce se právě skrylo za smrky
 protější stráně a od řeky v údolí sem zavanul studený vítr. Vedle sebe jsem měl

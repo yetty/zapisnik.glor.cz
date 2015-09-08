@@ -2,6 +2,7 @@ Balada pro Helmhof
 ##################
 
 :tags: povídky, Šumava
+:category: Povídky
 
 .. class:: intro
 

@@ -2,6 +2,7 @@ Do Trsic nechoďte!
 ##################
 
 :tags: Tchoříci, Šumava
+:category: Cestování
 
 .. image:: images/2012-05-05-do-trsic-nechodte/trsice.jpg
 

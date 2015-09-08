@@ -2,6 +2,7 @@ Nocležiště
 ##########
 
 :tags: Tchoříci, Šumava
+:category: Cestování
 
 .. |copy| raw:: html
 

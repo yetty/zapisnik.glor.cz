@@ -2,6 +2,7 @@ Venkov
 ######
 
 :tags: povídky
+:category: Povídky
 
 Na verandě sedělo pět lidí, bylo slunečné odpoledne – občas sice nepříjemně
 studeně zafoukalo, ale jinak bylo i teplo. Končilo léto. Jeden muž si četl

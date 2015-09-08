@@ -2,6 +2,7 @@ Poznámky ze země sluncem spálené
 ################################
 
 :tags: Tchoříci, Slovensko
+:category: Cestování
 
 .. class:: intro
 

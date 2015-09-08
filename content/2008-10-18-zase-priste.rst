@@ -2,6 +2,7 @@ Zase příště
 ###########
 
 :tags: povídky
+:category: Povídky
 
 .. image:: images/2008-10-18-zase-priste/uvod.jpg
     :alt: Výhled směrem k Úborsku, myslím.

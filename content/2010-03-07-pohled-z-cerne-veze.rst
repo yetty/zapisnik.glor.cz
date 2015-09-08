@@ -2,6 +2,7 @@ Pohled z Černé věže
 ###################
 
 :tags: povídky, gympl, Klatovy, Šumava
+:category: Povídky
 
 Tak ty jsi tu poprvé? Musíš mi dovolit, abych tě tu trochu provedl. Tohle
 nádraží má sice také své kouzlo, které bys dozajista objevil, zvláště pokud bys

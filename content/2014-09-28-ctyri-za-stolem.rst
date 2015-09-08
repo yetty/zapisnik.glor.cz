@@ -2,6 +2,7 @@
 ===============
 
 :tags: povídky, Polsko, doporučuji
+:category: Povídky
 
 .. class:: intro
 

@@ -2,6 +2,7 @@ Srdečná
 =======
 
 :tags: básně
+:category: Básně
 
 |
 | Byl šedý kostel, šedé hroby,

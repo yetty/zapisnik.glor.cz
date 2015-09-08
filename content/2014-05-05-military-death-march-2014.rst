@@ -2,6 +2,7 @@
 ####################
 
 :tags: Tchoříci, Šumava
+:category: Cestování
 
 .. class:: intro
 

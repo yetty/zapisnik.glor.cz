@@ -2,6 +2,7 @@ Kruté Vánoce jak mají být
 #########################
 
 :tags: povídky
+:category: Povídky
 
 Obchod byl plný lidí. Prodavačky se za pokladnami mohly přetrhnou a dlouhá
 fronta stejně neubývala. Všude svítila vánoční výzdoba, v rádiu hráli koledy.

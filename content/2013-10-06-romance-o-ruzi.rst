@@ -2,6 +2,7 @@
 ==============
 
 :tags: povídky, doporučuji
+:category: Povídky
 
 Zprudka se posadil na posteli a slyšel, jak hlasitě oddechuje. Chvíli mu
 trvalo, než si uvědomil, kde se vlastně probudil. Co ho probudilo, mu bylo nad

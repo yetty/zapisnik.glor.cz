@@ -2,6 +2,7 @@ Na cesty s jistotou - SPOT Satellite Messenger
 ##############################################
 
 :tags: Tchoříci, Švédsko, vybavení
+:category: Cestování
 
 .. class:: intro
 

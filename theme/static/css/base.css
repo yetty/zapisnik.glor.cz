@@ -120,6 +120,7 @@ tt.docutils, .code {
 
 sup {
   vertical-align: super;
+  line-height: 0;
 }
 
 sub {
@@ -139,6 +140,7 @@ blockquote {
   text-decoration: line-through;
 }
 
+
 .sc {
   font-variant: small-caps;
 }
@@ -152,6 +154,10 @@ blockquote {
 
 small {
   font-size: 80%;
+}
+
+.article-draft {
+    color: #944;
 }
 
 /* ARTICLE CONTENT STYLES */

@@ -2,6 +2,13 @@ Výletník
 ########
 
 :tags: povídky
+:category: Povídky
+
+.. class:: intro
+
+Takhle to dopadá, když rodinu popadne tvořivá chvilka a začne se vymýšlet.
+To se toho pak jedinec s psavými sklony chytne a výsledek je všelijaký.
+
 
 Už mi zbývalo objet jen posledních pár chalup. Dvakrát do týdne jsem s dopisy,
 balíky, důchody i jinými věci, které lidé posílají poštou musel zajet k

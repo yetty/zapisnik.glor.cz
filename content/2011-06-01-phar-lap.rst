@@ -2,6 +2,7 @@ Phar Lap
 ########
 
 :tags: povídky
+:category: Povídky
 
 .. class:: intro
 

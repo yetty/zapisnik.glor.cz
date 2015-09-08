@@ -2,6 +2,7 @@ Tři muži
 ########
 
 :tags: povídky
+:category: Povídky
 
 Nad městem se ženili snad všichni čerti. Pršelo, blesky ozařovali oblohu co
 chvíli, opravdu počasí, že by člověk ani psa nevyhnal. Je už tma, ve všech

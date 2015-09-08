@@ -2,6 +2,7 @@ Misionářův návrat
 #################
 
 :tags: povídky
+:category: Povídky
 
 .. class:: intro
 

@@ -66,4 +66,4 @@ Pokud chcete citovat v textu, provedete to pomocí příkazů `\cite` nebo `\foo
   
 Pokud na konci práce chcete mít kompletní použitou literaturu a prameny, slouží k tomu příkaz `\printbibliography`.
 
-Podrobnější informace naleznete nejlépe zase ve `wiki <https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management>`_. Jak může výsledný dokumentt vypadat si můzete prohlédnout `zde <https://www.overleaf.com/read/gcmncsbrwvmd>`_.
+Podrobnější informace naleznete nejlépe zase ve `wiki <https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management>`_. Jak může výsledný dokument vypadat si můzete prohlédnout `zde <https://www.overleaf.com/read/gcmncsbrwvmd>`_.

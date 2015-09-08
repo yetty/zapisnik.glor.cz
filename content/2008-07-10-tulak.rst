@@ -2,6 +2,7 @@ Tulák
 #####
 
 :tags: povídky
+:category: Povídky
 
 Sedím na nádraží, poslední vlak odjel před malou chvílí, ještě mi zní v uších
 ten jeho rytmus, slunce už zapadá za hory a já musím vstát a odejít. Zanedlouho

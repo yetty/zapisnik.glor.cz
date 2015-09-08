@@ -2,6 +2,7 @@ Syndrom vyhoření
 ################
 
 :tags: povídky
+:category: Povídky
 
 "Výborné kázání!", říká mi pan Richards po skončení mše. Děkuji, děkuji,
 odpovídám mu zdvořile a doufám a modlím se, že to nepotěšilo jen jeho duši. Pan

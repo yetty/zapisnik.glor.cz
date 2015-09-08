@@ -2,6 +2,7 @@ O ubohém Břetislavu a ošklivé Jituně
 ====================================
 
 :tags: povídky
+:category: Povídky
 
 .. class:: intro
 

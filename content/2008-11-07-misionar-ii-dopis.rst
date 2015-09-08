@@ -2,6 +2,7 @@ Misionář II: Dopis
 ##################
 
 :tags: povídky
+:category: Povídky
 
 Znáš mne a víš že k životu potřebuji společnost. Jak rád říkám - ve správném
 městě musí být i správná krčma. Místo, kam je radost večer zalézt, kde si někdy

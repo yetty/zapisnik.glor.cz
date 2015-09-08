@@ -2,6 +2,7 @@ V pasti
 #######
 
 :tags: povídky
+:category: Povídky
 
 Oblohu osvítil blesk a v téměř v tu samou chvíli se ozval i hrom. Bouřka zrovna
 řádila přímo nade mnou, z oblohy se valily moře vody a já se pod skalním

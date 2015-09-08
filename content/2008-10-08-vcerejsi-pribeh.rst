@@ -2,6 +2,7 @@ Včerejší příběh
 ###############
 
 :tags: povídky
+:category: Povídky
 
 .. class:: intro
 

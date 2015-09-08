@@ -2,6 +2,7 @@
 ==================
 
 :tags: Tchoříci, orienťák
+:category: Cestování
 
 
 .. class:: intro

@@ -2,6 +2,7 @@ O holce z perónu
 ################
 
 :tags: povídky, doporučuji
+:category: Povídky
 
 Seděl jsem sám za kulatým stolem v nevelké putyce, poslouchal folkové umělce a
 užíval si chvíle ticha mezi čísly. Někde mezi písničkou o chlupaté hrudi a
