@@ -160,6 +160,14 @@ small {
     color: #944;
 }
 
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
 /* ARTICLE CONTENT STYLES */
 
 .article ul, .article ol {

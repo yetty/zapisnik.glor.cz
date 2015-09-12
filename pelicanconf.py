@@ -67,3 +67,17 @@ STATIC_PATHS = (
     'extra/CNAME'
 )
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.7,
+        'indexes': 1,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
