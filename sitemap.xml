@@ -5,982 +5,989 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/index.html</loc>
-<lastmod>2015-09-08T18:44:44-00:00</lastmod>
+<lastmod>2015-09-12T23:03:38-00:00</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/o-svestkach.html</loc>
+<lastmod>2015-09-12T00:00:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/latex-tip-6.html</loc>
 <lastmod>2015-09-08T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/balada-pro-helmhof.html</loc>
 <lastmod>2015-07-31T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ja-se-jich-nebojim.html</loc>
 <lastmod>2015-06-30T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/latex-tip-5.html</loc>
 <lastmod>2015-05-27T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/latex-tip-4.html</loc>
 <lastmod>2015-05-26T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/latex-tip-3.html</loc>
 <lastmod>2015-05-25T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/latex-tip-2.html</loc>
 <lastmod>2015-05-24T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/latex-tip-1.html</loc>
 <lastmod>2015-05-23T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ja-ne--ja-uz-ne.html</loc>
 <lastmod>2014-12-12T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ctyri-za-stolem.html</loc>
 <lastmod>2014-09-28T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/hey-mr-tambourine-man.html</loc>
 <lastmod>2014-07-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/srdecni.html</loc>
 <lastmod>2014-05-28T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/military-death-march-2014.html</loc>
 <lastmod>2014-05-05T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/o-holce-z-peronu.html</loc>
 <lastmod>2014-03-10T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kpz.html</loc>
 <lastmod>2014-02-24T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/romance-o-ruzi.html</loc>
 <lastmod>2013-10-06T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/poznamky-ze-zeme-sluncem-spalene.html</loc>
 <lastmod>2013-10-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/focuswriter-old-school-typewriter.html</loc>
 <lastmod>2013-06-27T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jak-jsem-zkousel-nikon-1-v1.html</loc>
 <lastmod>2013-06-05T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/noha-pres-nohu.html</loc>
 <lastmod>2013-02-19T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/vandrovali-hudci.html</loc>
 <lastmod>2013-01-06T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pf2013.html</loc>
 <lastmod>2012-12-30T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/fotka-na-facebook.html</loc>
 <lastmod>2012-11-30T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/cernobily-orientak.html</loc>
 <lastmod>2012-10-29T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/cesta-domu.html</loc>
 <lastmod>2012-10-20T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/globalstar-spot-satellite-messenger.html</loc>
 <lastmod>2012-07-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/do-trsic-nechodte.html</loc>
 <lastmod>2012-05-05T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/poznamky-k-mobilni-verzi-webu.html</loc>
 <lastmod>2012-05-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/panorama-na-webu.html</loc>
 <lastmod>2012-05-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/drama-v-domazlicich.html</loc>
 <lastmod>2012-05-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/fotky-z-jizery.html</loc>
 <lastmod>2012-05-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/v-jizerkach-na-sneznicich.html</loc>
 <lastmod>2012-04-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pohledy-z-jizerek.html</loc>
 <lastmod>2012-04-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/google-vi.html</loc>
 <lastmod>2012-03-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/objektiv-z-practiky.html</loc>
 <lastmod>2012-03-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ms-holice-77.html</loc>
 <lastmod>2012-02-03T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nocleziste.html</loc>
 <lastmod>2012-02-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/liberec.html</loc>
 <lastmod>2012-02-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/tutorial-gimp-portrety.html</loc>
 <lastmod>2012-01-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/sazba-akordu-v-texu.html</loc>
 <lastmod>2012-01-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pf2012.html</loc>
 <lastmod>2011-12-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/rozhovor-patrick-macharovsky.html</loc>
 <lastmod>2011-12-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/rozhovor-robert-nieto.html</loc>
 <lastmod>2011-11-03T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/na-hdr-bez-bolesti.html</loc>
 <lastmod>2011-11-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/od-volesku.html</loc>
 <lastmod>2011-11-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pohledy-z-leta.html</loc>
 <lastmod>2011-10-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/novohradske-hory.html</loc>
 <lastmod>2011-10-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nepohoda.html</loc>
 <lastmod>2011-10-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ostry-svaroh-jezerni-hora.html</loc>
 <lastmod>2011-09-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ze-severu-v.html</loc>
 <lastmod>2011-09-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nocni-nyrsko.html</loc>
 <lastmod>2011-09-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/turisticka-hadanka.html</loc>
 <lastmod>2011-09-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ze-severu-iv.html</loc>
 <lastmod>2011-08-11T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ze-severu-iii.html</loc>
 <lastmod>2011-08-09T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/potucky.html</loc>
 <lastmod>2011-08-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ze-severu-ii.html</loc>
 <lastmod>2011-08-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ze-severu-i.html</loc>
 <lastmod>2011-08-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/the-dark-outdoors.html</loc>
 <lastmod>2011-07-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/mcr-rogaining-2011.html</loc>
 <lastmod>2011-06-25T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/rozhovor-jeff-michelmann.html</loc>
 <lastmod>2011-06-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/rozhovor-jesper-ullbing.html</loc>
 <lastmod>2011-06-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/phar-lap.html</loc>
 <lastmod>2011-06-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nikon-d7000.html</loc>
 <lastmod>2011-05-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/velikonoce-2011.html</loc>
 <lastmod>2011-05-02T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/hadanky-na-entou.html</loc>
 <lastmod>2011-05-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/to-nejlepsi-z-ukrajiny.html</loc>
 <lastmod>2011-04-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/leto-2010.html</loc>
 <lastmod>2011-03-11T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/a-je-to-tady.html</loc>
 <lastmod>2011-03-08T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/po-stopach-paseraka.html</loc>
 <lastmod>2011-03-03T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jeden-den-fyzikou-i.html</loc>
 <lastmod>2011-02-20T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/v-pasti.html</loc>
 <lastmod>2010-08-25T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/navod-na-ggt.html</loc>
 <lastmod>2010-08-12T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kravy.html</loc>
 <lastmod>2010-07-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pohled-z-cerne-veze.html</loc>
 <lastmod>2010-03-07T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/starik.html</loc>
 <lastmod>2009-12-05T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/cerny-pasazer.html</loc>
 <lastmod>2009-05-09T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/rozumel-nebo-rozumnel.html</loc>
 <lastmod>2009-04-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jizerky-2009.html</loc>
 <lastmod>2009-03-06T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jake-bylo-bludiste-v.html</loc>
 <lastmod>2009-02-28T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jake-bylo-bludiste-iv.html</loc>
 <lastmod>2009-02-27T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jake-bylo-bludiste-iii.html</loc>
 <lastmod>2009-02-26T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jake-bylo-bludiste-ii.html</loc>
 <lastmod>2009-02-25T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/jake-bylo-bludiste-i.html</loc>
 <lastmod>2009-02-24T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/venkov.html</loc>
 <lastmod>2009-01-16T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pf2009.html</loc>
 <lastmod>2008-12-31T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/krute-vanoce-jak-maji-byt.html</loc>
 <lastmod>2008-12-25T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/vyletnik.html</loc>
 <lastmod>2008-11-28T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/o-bretislavu-a-jitce.html</loc>
 <lastmod>2008-11-24T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/misionar-ii-dopis.html</loc>
 <lastmod>2008-11-07T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/ostrovsky-orientacni-beh-2008.html</loc>
 <lastmod>2008-10-31T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/zase-priste.html</loc>
 <lastmod>2008-10-18T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/misionaruv-navrat.html</loc>
 <lastmod>2008-10-15T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/vcerejsi-pribeh.html</loc>
 <lastmod>2008-10-08T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/par-rad-do-zivota.html</loc>
 <lastmod>2008-10-06T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/drevena-brigada-2008.html</loc>
 <lastmod>2008-09-30T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/neznamy.html</loc>
 <lastmod>2008-09-24T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/na-ukrajinu-pry-jsme-blazni.html</loc>
 <lastmod>2008-08-30T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/tri-muzi.html</loc>
 <lastmod>2008-08-11T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/po-domazlicku.html</loc>
 <lastmod>2008-07-31T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/syndrom-vyhoreni.html</loc>
 <lastmod>2008-07-11T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/tulak.html</loc>
 <lastmod>2008-07-10T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/a-tak-jsme-to-prezili.html</loc>
 <lastmod>2008-03-24T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/golden-well-2008.html</loc>
 <lastmod>2008-02-22T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/byl-jsem-v-tatrach.html</loc>
 <lastmod>2007-08-14T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/basne.html</loc>
 <lastmod>2015-06-30T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/cestovani.html</loc>
 <lastmod>2014-05-05T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/clanek.html</loc>
 <lastmod>2013-06-27T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/latex-tipy-a-triky.html</loc>
 <lastmod>2015-09-08T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/povidky.html</loc>
-<lastmod>2015-07-31T00:00:00+00:58</lastmod>
+<lastmod>2015-09-12T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/ukrajina.html</loc>
 <lastmod>2011-04-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/sumava.html</loc>
 <lastmod>2015-07-31T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/slovensko.html</loc>
 <lastmod>2013-10-02T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/vybaveni.html</loc>
 <lastmod>2014-02-24T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/gympl.html</loc>
 <lastmod>2013-01-06T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/hry.html</loc>
 <lastmod>2012-05-02T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/rogaining.html</loc>
 <lastmod>2011-06-25T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/cestina.html</loc>
 <lastmod>2009-04-03T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/bludiste.html</loc>
 <lastmod>2009-02-28T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/svedsko.html</loc>
 <lastmod>2012-07-03T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/orientak.html</loc>
 <lastmod>2012-10-29T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/pf.html</loc>
 <lastmod>2012-12-30T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/fotky.html</loc>
 <lastmod>2013-06-05T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/klatovy.html</loc>
 <lastmod>2010-03-07T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/hadanky.html</loc>
 <lastmod>2011-09-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/doporucuji.html</loc>
-<lastmod>2015-06-30T00:00:00+00:58</lastmod>
+<lastmod>2015-09-12T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/novohradske-hory.html</loc>
 <lastmod>2011-10-03T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/rozhovor.html</loc>
 <lastmod>2011-12-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/krusne-hory.html</loc>
 <lastmod>2011-09-03T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/nyrsko.html</loc>
 <lastmod>2011-09-02T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/latex.html</loc>
 <lastmod>2015-09-08T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/povidky.html</loc>
-<lastmod>2015-07-31T00:00:00+00:58</lastmod>
+<lastmod>2015-09-12T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/hudba.html</loc>
 <lastmod>2014-07-02T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/polsko.html</loc>
 <lastmod>2014-09-28T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/tchorici.html</loc>
 <lastmod>2014-05-05T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/jizerky.html</loc>
 <lastmod>2012-05-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/basne.html</loc>
 <lastmod>2015-06-30T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/cch.html</loc>
 <lastmod>2015-05-26T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/navod.html</loc>
 <lastmod>2013-06-27T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/autor/juda-kaleta.html</loc>
-<lastmod>2015-09-08T00:00:00+00:58</lastmod>
+<lastmod>2015-09-12T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 </urlset>
