@@ -37,7 +37,7 @@ TAGS_SAVE_AS = 'nalepky.html'
 ARCHIVES_SAVE_AS = 'archiv.html'
 TAG_SAVE_AS = 'nalepka/{slug}.html'
 
-AUTHOR_URL = 'autor/{slug}.html'
+AUTHOR_URL = 'author/{slug}.html'
 CATEGORY_URL = 'kategorie/{slug}.html'
 TAG_URL = 'nalepka/{slug}.html'
 
