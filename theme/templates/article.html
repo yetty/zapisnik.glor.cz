@@ -2,6 +2,10 @@
 
 {% block title %}{{ article.title }}{% endblock %}
 
+{% block ga_extra %}
+ga('set', 'dimension1', '{{ category.slug }}');
+{% endblock %}
+
 {% block content %}
   <h1 class="article-{{ article.status }}">{{ article.title }}</h1>
   <span class="date">
