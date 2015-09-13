@@ -119,4 +119,41 @@ A tohle je pravda.\footcite{franzen:male-cirkevni}
 &lt;li&gt;pokud nebudete vědet co a jak, může vám pomoci velmi dobře zpracovaná &lt;a class="reference external" href="https://en.wikibooks.org/wiki/LaTeX"&gt;wiki stránka pro LaTeX&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary><category term="latex"></category></entry></feed>
+</summary><category term="latex"></category></entry><entry><title>Jak vysázet akordy v TeXu</title><link href="http://zapisnik.glor.cz/sazba-akordu-v-texu.html" rel="alternate"></link><updated>2012-01-01T00:00:00+01:00</updated><author><name>Juda Kaleta</name></author><id>tag:zapisnik.glor.cz,2012-01-01:sazba-akordu-v-texu.html</id><summary type="html">&lt;p class="intro"&gt;Krátká poznámka o tom, jak vysázet akordy v LaTeXu. Třeba někomu pomůže. Píšu si
+to zde proto, abych to jednou nezapomněl. Lépe řečeno, abych to dokázal najít,
+až to&amp;nbsp;zapomenu&amp;#8230;&lt;/p&gt;
+&lt;div class="section" id="zakladni-makro"&gt;
+&lt;h2&gt;Základní&amp;nbsp;makro&lt;/h2&gt;
+&lt;pre class="code literal-block"&gt;
+\newcommand{\ch}[1]
+{
+    \makebox[-6pt][c]{\raisebox{12pt}[24pt]{~~{ \footnotesize \textbf{#1}} }}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pouziti"&gt;
+&lt;h2&gt;Použití&lt;/h2&gt;
+&lt;pre class="code literal-block"&gt;
+Pane \ch{G}můj, dals mi dost štastnejch \ch{C}chvil,
+mnohem víc já za\ch{G}žil, než jsem mohl si \ch{D}přát.
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vysledek"&gt;
+&lt;h2&gt;Výsledek&lt;/h2&gt;
+&lt;img alt="" src="images/2012-01-01-sazba-akordu-v-texu/panemuj.jpg" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="a-jak-nasazet-cely-zpevnik"&gt;
+&lt;h2&gt;A jak nasázet celý&amp;nbsp;zpěvník?&lt;/h2&gt;
+&lt;p&gt;Na sazbu zpěvníku jsem si napsal skript v Pythonu. Kdo by se chtěl podívat,
+zdrojové kódy jsou umístěny na &lt;a class="reference external" href="https://github.com/yetty/Zpevnik"&gt;GitHubu&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="co-skript-umi"&gt;
+&lt;h3&gt;Co skript&amp;nbsp;umí?&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Akordy lze zapisovat zjednodušeně do hranatých&amp;nbsp;závorek&lt;/li&gt;
+&lt;li&gt;Vytáhne všechny soubory z&amp;nbsp;adresáře&lt;/li&gt;
+&lt;li&gt;Písně&amp;nbsp;seřadí&lt;/li&gt;
+&lt;li&gt;Vytvoří přehledné &lt;span class="caps"&gt;PDF&lt;/span&gt; i se seznamem&amp;nbsp;písní.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary><category term="návod"></category><category term="LaTeX"></category></entry></feed>
