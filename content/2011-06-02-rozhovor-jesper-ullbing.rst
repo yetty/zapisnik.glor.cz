@@ -2,6 +2,7 @@ Rozhovor: Jesper Ullbing
 ########################
 
 :tags: rozhovor
+:category: Rozhovory
 
 .. class:: intro
 

@@ -2,6 +2,7 @@ Pohledy z léta
 ##############
 
 :tags: fotky, Šumava, Novohradské hory
+:category: Cestování
 
 .. class:: intro
 

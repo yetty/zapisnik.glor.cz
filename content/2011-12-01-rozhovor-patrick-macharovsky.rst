@@ -2,6 +2,7 @@ Rozhovor: Patrick Macharovský
 #############################
 
 :tags: rozhovor
+:category: Rozhovory
 
 .. class:: intro
 

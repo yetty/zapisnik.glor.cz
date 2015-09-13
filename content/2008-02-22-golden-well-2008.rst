@@ -1,8 +1,8 @@
 Golden Well 2008
 ################
 
-:tags: Tchoříci, Šumava
-:category: Cestování
+:tags: Tchoříci, Šumava, cestování
+:category: Tchoříci
 
 .. class:: intro
 

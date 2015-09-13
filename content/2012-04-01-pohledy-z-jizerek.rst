@@ -1,7 +1,7 @@
 Pohledy z hor Jizerských
 ########################
 
-:tags: fotky, Jizerky
+:tags: fotky, Jizerky, Tchoříci
 :category: Cestování
 
 První dva pohledy z velikonoční návštěvy Jizerských hor. Jak vidíte, sněhu bylo

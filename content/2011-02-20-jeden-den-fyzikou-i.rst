@@ -2,6 +2,7 @@ Reportáž z MatFyzu
 ##################
 
 :tags: gympl
+:category: Škola
 
 .. class:: intro
 

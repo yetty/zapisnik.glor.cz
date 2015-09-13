@@ -2,6 +2,8 @@
 
 {% block title %}Zápisník - {{category}} {% if articles_page.number > 1 %} - {{ articles_page.number }}. str.{% endif %}{% endblock %}
 
+{% block rss %}{{ category.slug }}{% endblock %}
+
 {% block content %}
   <h1>Zápisník</h1>
   <p class="intro">O cestování s batohem na zádech. Povídky i příběhy ze života.
@@ -11,3 +13,7 @@
   {% include "_articles.html" %}
 
 {% endblock content %}
+
+{% block footer %}
+| <a href="http://zapisnik.glor.cz/feeds/{{ category.slug }}.atom.xml">RSS „{{ category }}“</a>
+{% endblock %}

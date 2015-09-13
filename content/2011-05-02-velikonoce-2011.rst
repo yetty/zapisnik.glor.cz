@@ -1,7 +1,8 @@
 Velikonoce 2011: místy přísně střeženými
 ########################################
 
-:tags: Tchoříci, Šumava
+:tags: Tchoříci, Šumava, cestování
+:category: Tchoříci
 
 .. class:: intro
 

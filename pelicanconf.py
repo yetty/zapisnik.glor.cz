@@ -25,7 +25,7 @@ RELATIVE_URLS = True
 
 WITH_FUTURE_DATES = False
 
-DEFAULT_CATEGORY = u'Článek'
+DEFAULT_CATEGORY = u'Nezařazeno'
 
 SLUGIFY_SOURCE = 'basename'
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
@@ -57,6 +57,8 @@ RELATED_POSTS_MAX = 10
 SITEMAP = {
     'format': 'xml',
 }
+
+NEWEST_FIRST_ARCHIVES = False
 
 # Theming
 THEME = 'theme'

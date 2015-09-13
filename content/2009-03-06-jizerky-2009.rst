@@ -1,7 +1,8 @@
 Jizerky 2009
 ############
 
-:tags: Tchoříci, Jizerky
+:tags: Tchoříci, Jizerky, cestování
+:category: Tchoříci
 
 .. class:: intro
 

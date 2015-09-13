@@ -2,6 +2,7 @@ Jaké bylo Bludiště III. - rozhovor s Tomášem Rynešem
 ####################################################
 
 :tags: Bludiště, gympl
+:category: Škola
 
 .. class:: intro
 

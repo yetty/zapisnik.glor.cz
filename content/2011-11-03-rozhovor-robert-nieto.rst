@@ -2,6 +2,7 @@ Rozhovor: Robert Nieto
 ######################
 
 :tags: rozhovor
+:category: Rozhovory
 
 .. class:: intro
 

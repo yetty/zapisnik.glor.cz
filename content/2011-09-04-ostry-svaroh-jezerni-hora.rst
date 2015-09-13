@@ -2,6 +2,7 @@ Ostrý, Svaroh a Jezerní hora
 ############################
 
 :tags: fotky, Šumava
+:category: Cestování
 
 Černé jezero od Jezerní hory
 ****************************

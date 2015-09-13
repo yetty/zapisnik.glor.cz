@@ -1,7 +1,8 @@
 Novohradské hory
 ################
 
-:tags: fotky
+:tags: fotky, Novohradské hory
+:category: Cestování
 
 .. image:: images/2011-10-02-novohradske-hory/s1.jpg
 

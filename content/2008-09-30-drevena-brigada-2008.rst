@@ -2,6 +2,7 @@ Dřevěná brigáda 2008
 ####################
 
 :tags: Tchoříci, Jizerky
+:category: Tchoříci
 
 .. class:: intro
 

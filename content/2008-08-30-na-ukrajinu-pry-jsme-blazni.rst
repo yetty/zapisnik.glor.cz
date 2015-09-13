@@ -1,8 +1,8 @@
 Na Ukrajinu? Prý jsme blázni.
 #############################
 
-:tags: Tchoříci, Ukrajina
-:category: Cestování
+:tags: Tchoříci, Ukrajina, cestování
+:category: Tchoříci
 
 .. class:: intro
 

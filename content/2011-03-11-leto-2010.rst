@@ -2,6 +2,7 @@ Léto 2010
 #########
 
 :tags: fotky
+:category: Cestování
 
 .. class:: intro
 

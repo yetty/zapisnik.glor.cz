@@ -4,14 +4,18 @@
 
 {% block content %}
   {% set year = 0 %}
-  <h1>Archiv</h1>
+  <h1>Zápisník</h1>
+  <p class="intro">O cestování s batohem na zádech. Povídky i příběhy ze života.
+                   Fotografie ze zapadlých koutů světa i Česka.</p>
+
+  <h2>Archiv, <a href="{{ SITEURL }}">&#10154;</a></h2>
 
   {% for article in articles %}
     {% set previous_year = year %}
     {% set year = article.date.strftime("%Y") %}
 
     {% if not previous_year == year %}
-      <h2>{{ year }}</h2>
+      <h3>{{ year }}</h3>
     {% endif %}
 
     <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>,

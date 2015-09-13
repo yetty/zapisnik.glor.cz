@@ -2,6 +2,7 @@ Jaké bylo Bludiště V. - videozáznam
 ===================================
 
 :tags: Bludiště, gympl
+:category: Škola
 
 Všechny tři díly jsou dostupné přímo v `archivu
 ČT <http://www.ceskatelevize.cz/ivysilani-jako-driv/409234100011013-bludiste/>`_.

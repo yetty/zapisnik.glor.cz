@@ -1,7 +1,8 @@
 Goldbrunn 2011 - po stopách pašeráka
 ####################################
 
-:tags: Tchoříci, Šumava
+:tags: Tchoříci, Šumava, cestování
+:category: Tchoříci
 
 .. class:: intro
 

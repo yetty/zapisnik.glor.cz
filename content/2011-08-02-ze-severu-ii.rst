@@ -2,6 +2,7 @@ Ze severu - den druhý
 #####################
 
 :tags: Krušné hory, fotky
+:category: Cestování
 
 .. class:: intro
 

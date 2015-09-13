@@ -2,6 +2,7 @@ Rozumět nebo rozumnět
 #####################
 
 :tags: gympl, čeština
+:category: Škola
 
 .. class:: intro
 

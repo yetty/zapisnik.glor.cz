@@ -2,6 +2,7 @@ Rozhovor: Jeff Michelmann
 #########################
 
 :tags: rozhovor
+:category: Rozhovory
 
 .. class:: intro
 

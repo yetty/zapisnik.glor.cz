@@ -1,7 +1,8 @@
 Zelenáči na mistrovství
 #######################
 
-:tags: rogaining, Tchoříci
+:tags: rogaining, Tchoříci, cestování
+:category: Tchoříci
 
 .. class:: intro
 

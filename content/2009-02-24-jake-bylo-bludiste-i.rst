@@ -3,6 +3,7 @@ Jaké bylo Bludiště I. - stručně a jasně
 
 
 :tags: Bludiště, gympl
+:category: Škola
 
 .. class:: intro
 

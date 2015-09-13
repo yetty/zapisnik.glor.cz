@@ -2,6 +2,7 @@ Jak vysázet akordy v TeXu
 #########################
 
 :tags: návod, LaTeX
+:category: Latex - tipy a triky
 
 .. class:: intro
 

@@ -2,6 +2,7 @@ Nepohoda
 ########
 
 :tags: povídky
+:category: Povídky
 
 "A ty si pískáš," podívala se na něj vyčítavě. Zrovna se jí ulomil podpatek,
 tenoučký jako jehla a tak byla právem nasupená.

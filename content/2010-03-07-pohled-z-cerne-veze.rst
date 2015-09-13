@@ -1,7 +1,7 @@
 Pohled z Černé věže
 ###################
 
-:tags: povídky, gympl, Klatovy, Šumava
+:tags: povídky, gympl, Klatovy, Šumava, škola
 :category: Povídky
 
 Tak ty jsi tu poprvé? Musíš mi dovolit, abych tě tu trochu provedl. Tohle

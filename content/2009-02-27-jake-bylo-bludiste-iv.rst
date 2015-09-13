@@ -2,6 +2,7 @@ Jaké bylo Bludiště IV. - jak to bylo doopravdy
 ##############################################
 
 :tags: Bludiště, gympl
+:category: Škola
 
 .. class:: intro
 

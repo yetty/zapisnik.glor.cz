@@ -1,7 +1,8 @@
 Ostrovský orientační běh 2008
 =============================
 
-:tags: Tchoříci, orienťák
+:tags: Tchoříci, orienťák, cestování
+:category: Tchoříci
 
 .. class:: intro
 

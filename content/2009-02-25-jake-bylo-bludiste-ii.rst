@@ -2,6 +2,7 @@ Jaké bylo Bludiště II. - rozhovor s týmem
 #########################################
 
 :tags: Bludiště, gympl
+:category: Škola
 
 .. role:: sc
 

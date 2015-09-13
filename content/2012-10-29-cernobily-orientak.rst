@@ -1,8 +1,8 @@
 Černobílý orienťák
 ==================
 
-:tags: Tchoříci, orienťák
-:category: Cestování
+:tags: Tchoříci, orienťák, cestování
+:category: Tchoříci
 
 
 .. class:: intro

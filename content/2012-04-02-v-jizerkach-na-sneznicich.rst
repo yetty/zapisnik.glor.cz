@@ -1,8 +1,8 @@
 V Jizerkách na sněžnicích
 #########################
 
-:tags: Tchoříci, Jizerky
-:category: Cestování
+:tags: Tchoříci, Jizerky, cestování
+:category: Tchoříci
 
 .. class:: intro
 

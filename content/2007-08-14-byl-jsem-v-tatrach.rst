@@ -1,8 +1,8 @@
 Byl jsem v Tatrách, zapomenout se nedá...
 #########################################
 
-:tags: Tchoříci, Slovensko
-:category: Cestování
+:tags: Tchoříci, Slovensko, cestování, Tatry
+:category: Tchoříci
 
 .. class:: intro
 

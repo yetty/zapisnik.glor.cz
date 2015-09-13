@@ -1,8 +1,8 @@
 A tak jsme to přežili
 =====================
 
-:tags: Tchoříci, Šumava
-:category: Cestování
+:tags: Tchoříci, Šumava, cestování
+:category: Tchoříci
 
 .. class:: intro
 

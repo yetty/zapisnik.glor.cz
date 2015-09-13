@@ -1,7 +1,8 @@
 Od Volešku
 ##########
 
-:tags: fotky
+:tags: fotky, Šumava
+:category: Cestování
 
 `U Pálenky <http://www.mapy.cz/s/2wjt>`_
 ****************************************

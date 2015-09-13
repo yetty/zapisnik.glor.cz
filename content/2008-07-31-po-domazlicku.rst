@@ -1,7 +1,7 @@
 Po Domažlicku
 #############
 
-:tags: Šumava
+:tags: Šumava, cestování, Chodsko
 :category: Cestování
 
 .. image:: images/2008-07-31-po-domazlicku/IMG_1013.jpg

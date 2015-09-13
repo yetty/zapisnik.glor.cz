@@ -1,7 +1,8 @@
 To nejlepší z Ukrajiny
 ######################
 
-:tags: Tchoříci, Ukrajina
+:tags: Tchoříci, Ukrajina, cestování
+:category: Tchoříci
 
 Je to už pár let, co jsme s Tchoříky v létě navštívili Podkarpatskou Rus. Výlet
 to byl nezapomenutelný a co víc, vznikly tam také spousty fotek. Abyste se
