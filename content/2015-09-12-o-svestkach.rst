@@ -3,6 +3,7 @@ O švestkách
 
 :tags: povídky, doporučuji
 :category: Povídky
+:description: Povídka o tom, že člověk, který si může dovolit vše, nemusí být zrovna šťastný.
 
 .. class:: intro
 

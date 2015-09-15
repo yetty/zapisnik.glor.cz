@@ -2,19 +2,26 @@
 
 {% block title %}{{ article.title }}{% endblock %}
 
+{% block extra_meta %}
+  <meta name="description" content="{{ article.description }}">
+{% endblock %}
+
 {% block ga_extra %}
-ga('set', 'dimension1', '{{ category.slug }}');
+'dimension1': '{{ category.slug }}'
 {% endblock %}
 
 {% block content %}
-  <h1 class="article-{{ article.status }}">{{ article.title }}</h1>
+<div itemscope itemtype="http://schema.org/NewsArticle">
+  <h1 class="article-{{ article.status }}" itemprop="headline">{{ article.title }}</h1>
   <span class="date">
+     <meta itemprop="datePublished" content="{{ article.date.strftime("%Y-%m-%dT%H:%M:%S") }}"/>
     {{ article.date.strftime("%Y/%m/%d") }},
     <a href="{{ SITEURL }}" title="Přejít na seznam článků">&#10154;</a>
   </span>
-  <div class="article">
+  <div class="article" itemprop="articleBody">
     {{ article.content }}
   </div>
+</div>
 
   {% if article.share_post and article.status != 'draft' %}
     <p class="social">

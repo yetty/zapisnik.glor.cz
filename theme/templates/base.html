@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+  {% block extra_meta %}{% endblock %}
 
   <link rel="alternate" type="application/atom+xml" title="RSS kanál" href="{{SITEURL}}/feeds/{% block rss %}all{% endblock %}.atom.xml"/>
 
@@ -32,8 +33,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-2063092-11', 'glor.cz');
-  {% block ga_extra %}{% endblock %}
-  ga('send', 'pageview');
+  ga('send', 'pageview', {{ '{' }}{% block ga_extra %}{% endblock %}{{ '}' }});
 </script>
 
 <div class="wrapper">
@@ -41,10 +41,11 @@
     {% block content %}{% endblock %}
 
     <div class="footer">
-      Zapisuje <a href="https://www.judakaleta.cz/">Juda Kaleta</a> (<a href="mailto:juda.kaleta@gmail.com">@</a>).<br>
+      Zapisuje <a href="http://www.judakaleta.cz/">Juda Kaleta</a> (<a href="mailto:juda.kaleta@gmail.com">@</a>).<br>
       <small>Veškerý obsah stránek je publikován pod licencí <a href="http://creativecommons.org/licenses/by-nc/3.0/deed.cs">Creative Commons BY-NC</a>.<br>
         
         <a href="http://zapisnik.glor.cz/archiv.html">Archiv</a> | 
+        <a href="http://zapisnik.glor.cz/search.html">Vyhledávání</a> |
         <a href="http://zapisnik.glor.cz/kategorie.html">Kategorie</a> | 
         <a href="http://zapisnik.glor.cz/nalepky.html">Nálepky</a> |
         <a href="http://zapisnik.glor.cz/sitemap.xml">Sitemap</a> |
