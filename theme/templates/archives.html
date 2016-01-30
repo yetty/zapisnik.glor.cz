@@ -10,14 +10,12 @@
 
   <h2>Archiv, <a href="{{ SITEURL }}">&#10154;</a></h2>
 
-  {% for article in articles %}
+  {% for article in articles -%}
     {% set previous_year = year %}
     {% set year = article.date.strftime("%Y") %}
-
     {% if not previous_year == year %}
       <h3>{{ year }}</h3>
-    {% endif %}
-
-    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>,
-  {% endfor %}
+    {% elif not loop.last %}, {% endif %}
+    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+  {%- endfor %}
 {% endblock %}
