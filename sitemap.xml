@@ -5,16 +5,23 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/index.html</loc>
-<lastmod>2016-01-31T11:46:11-00:00</lastmod>
+<lastmod>2016-02-01T21:32:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pages/search.html</loc>
-<lastmod>2016-01-31T11:46:11-00:00</lastmod>
+<lastmod>2016-02-01T21:32:51-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/vysokoskolska-2.html</loc>
+<lastmod>2016-02-01T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -789,7 +796,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/povidky.html</loc>
-<lastmod>2016-01-30T00:00:00+00:58</lastmod>
+<lastmod>2016-02-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -818,6 +825,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/ukrajina.html</loc>
 <lastmod>2011-04-01T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/nalepka/pth.html</loc>
+<lastmod>2016-02-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -992,7 +1006,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/povidky.html</loc>
-<lastmod>2016-01-30T00:00:00+00:58</lastmod>
+<lastmod>2016-02-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -1048,7 +1062,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/author/juda-kaleta.html</loc>
-<lastmod>2016-01-30T00:00:00+00:58</lastmod>
+<lastmod>2016-02-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
