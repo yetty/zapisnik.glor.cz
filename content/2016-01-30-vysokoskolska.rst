@@ -6,7 +6,7 @@ Vysokoškolská
 
 .. class:: intro
 
-Američtí vědci zjistili, že kdyby doktoři z čekáren vybírali pacienty náhodně, ušetří se spousta času.
+Američtí vědci zjistili, že kdyby doktoři z čekáren vybírali pacienty náhodně, ušetřila by se spousta času.
 
 
 
