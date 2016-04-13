@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/index.html</loc>
-<lastmod>2016-02-28T19:31:30-00:00</lastmod>
+<lastmod>2016-04-13T23:37:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pages/search.html</loc>
-<lastmod>2016-02-28T19:31:30-00:00</lastmod>
+<lastmod>2016-04-13T23:37:27-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://zapisnik.glor.cz/nadeje.html</loc>
-<lastmod>2016-02-28T00:00:00+01:00</lastmod>
+<loc>http://zapisnik.glor.cz/o-jedne-hre.html</loc>
+<lastmod>2016-04-13T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -775,7 +775,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/basne.html</loc>
-<lastmod>2016-02-28T00:00:00+00:58</lastmod>
+<lastmod>2015-06-30T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -803,7 +803,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/kategorie/povidky.html</loc>
-<lastmod>2016-02-01T00:00:00+00:58</lastmod>
+<lastmod>2016-04-13T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -971,7 +971,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/doporucuji.html</loc>
-<lastmod>2016-02-28T00:00:00+00:58</lastmod>
+<lastmod>2015-09-12T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -1013,7 +1013,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/povidky.html</loc>
-<lastmod>2016-02-01T00:00:00+00:58</lastmod>
+<lastmod>2016-04-13T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -1048,7 +1048,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/basne.html</loc>
-<lastmod>2016-02-28T00:00:00+00:58</lastmod>
+<lastmod>2015-06-30T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -1069,7 +1069,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/author/juda-kaleta.html</loc>
-<lastmod>2016-02-28T00:00:00+00:58</lastmod>
+<lastmod>2016-04-13T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
