@@ -5,16 +5,23 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/index.html</loc>
-<lastmod>2016-04-14T12:13:06-00:00</lastmod>
+<lastmod>2016-04-18T22:30:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>http://zapisnik.glor.cz/pages/search.html</loc>
-<lastmod>2016-04-14T12:13:06-00:00</lastmod>
+<lastmod>2016-04-18T22:30:13-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/matrix-2016.html</loc>
+<lastmod>2016-04-18T00:00:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -809,6 +816,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://zapisnik.glor.cz/kategorie/reportaze.html</loc>
+<lastmod>2016-04-18T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://zapisnik.glor.cz/kategorie/rozhovory.html</loc>
 <lastmod>2011-12-01T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
@@ -880,7 +894,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/hry.html</loc>
-<lastmod>2012-05-02T00:00:00+00:58</lastmod>
+<lastmod>2016-04-18T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -964,7 +978,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/hadanky.html</loc>
-<lastmod>2011-09-01T00:00:00+00:58</lastmod>
+<lastmod>2016-04-18T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -979,6 +993,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://zapisnik.glor.cz/nalepka/novohradske-hory.html</loc>
 <lastmod>2011-10-03T00:00:00+00:58</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>http://zapisnik.glor.cz/nalepka/sifrovacky.html</loc>
+<lastmod>2016-04-18T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -1069,7 +1090,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://zapisnik.glor.cz/author/juda-kaleta.html</loc>
-<lastmod>2016-04-13T00:00:00+00:58</lastmod>
+<lastmod>2016-04-18T00:00:00+00:58</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
