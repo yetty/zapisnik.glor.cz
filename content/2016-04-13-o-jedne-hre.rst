@@ -1,7 +1,7 @@
 Povídání o tom, jakou jeden kluk hrál hru a proč byste měli také
 ================================================================
 
-:tags: povídky
+:tags: povídky, doporučuji
 :category: Povídky
 
 .. class:: intro
